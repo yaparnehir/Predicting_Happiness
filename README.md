@@ -5,16 +5,16 @@
 
 ## Roles
 ### Square
-
+Nehir
 ### Triangle
-
+Nusrat
 ### Circle
-
+Amanda
 ### X Role 
-
+Kartikye
 
 ### Visualization
-
+Danielle 
 
 ## Methods 
 > Unsupervised ML 
@@ -22,3 +22,5 @@
 
 ## Data Cleaning
 > Drop extra column , drop empty rows, check duplicates
+
+
