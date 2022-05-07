@@ -3,6 +3,12 @@
 * https://www.kaggle.com/datasets/vinitasilaparasetty/country-coordinates-world
 * https://www.kaggle.com/datasets/levyedgar44/income-and-happiness-correction
 
+## FlowChart
+<p align="center">
+    <img src="https://github.com/yaparnehir/Final_Project/blob/62e8faf94e11c4c89158f7a7c343b713442d8ebd/Images/Final_Project%20Flowchart.png"> 
+</p>  
+<br>  
+
 ## Roles
 ### Square
 Nehir
