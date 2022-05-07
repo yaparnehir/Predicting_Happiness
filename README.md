@@ -12,6 +12,11 @@ Nusrat
 Amanda
 ### X Role 
 Kartikye
+- discuss how data will be cleaned then merged, may need to create additonal tables in database to export
+- assist <b>Amanda</b> in laying down framework for SQL files
+-If group pace is faster then project timeline begin research into establishing "github pages" to create website visual
+    - look to previous modules for guidance/look to TA's for insight
+- assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
 
 ### Visualization
 Danielle 
