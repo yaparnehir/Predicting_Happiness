@@ -7,7 +7,13 @@
 ### Square
 Nehir
 ### Triangle
-Nusrat
+
+- Nusrat
+
+    - Data preprocessing
+    - 
+    -
+    
 ### Circle
 Amanda
 ### X Role 
@@ -16,11 +22,46 @@ Kartikye
 ### Visualization
 Danielle 
 
-## Methods 
-> Unsupervised ML 
+## Technology
 
+### Data Preprocessing
 
-## Data Cleaning
-> Drop extra column , drop empty rows, check duplicates
+- Python
+- Jupyter Notebook
+- Matplotlib
+
+### Database Storage
+
+- PostgreSQL
+- pgAdmin4
+
+### Machine Learning
+
+SciKitLearn - machine learning library to fit the model.
+
+### Dashboard
+
+- Tableau - to create a dashboard displaying the results of our analysis.
+- GitHub - ReadMe and files for project
+
+## Segment I: Sketch It Out!
+
+- First segment list of deliverables:
+
+    - Finalize dataset for the project
+    - Making a flowchart
+    - Identification of technology
+    - Creating database
+    - Mockup of machine learning
+ 
+### Exploratory Data Analysis (ERD)
+
+#### Entity Relationship Diagram (ERD)
+
+#### Database Storage Set up
+
+#### Connection String
+
+### Machine learning mockup
 
 
