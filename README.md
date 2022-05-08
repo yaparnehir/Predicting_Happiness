@@ -11,7 +11,7 @@
     
 
 ### Questions we hope to answer
-* What is the correlation between happiness and income?
+* The impact of various factors upon "Happiness" of a country?
 * How employement status effect on happiness ?
 * Can overall poverty in indivual country lower the expectation ? 
 * Can we create a heat map regarding to our results to see if there is a relation between geolocation and income-happiness data results ?
