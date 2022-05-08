@@ -26,7 +26,8 @@ Kartikye
 
 ### Visualization
 Danielle 
-
+- Discuss ideas for possible visuals for the final project
+- Look over data to see what visual applications may fit
 ## Methods 
 > Unsupervised ML 
 
