@@ -47,12 +47,9 @@ Nusrat
     
 ### Circle
 Amanda
-
-### X Role
-
 ![Diagram](/Dataset%20diagram.PNG)
-
-
+    
+### X Role
 Kartikye
 - discuss how data will be cleaned then merged, may need to create additonal tables in database to export
 - assist <b>Amanda</b> in laying down framework for SQL files
