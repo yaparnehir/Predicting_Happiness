@@ -27,7 +27,13 @@ Nehir
 - Watching all the process was made in branches, keep the updates.
 - Testing, discussing before merging into a main branch.
 ### Triangle
-Nusrat
+
+- Nusrat
+
+    - Contribute to data cleaning and preprocessing
+    - 
+    -
+    
 ### Circle
 Amanda
 ### X Role 
@@ -39,13 +45,60 @@ Kartikye
 - assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
 
 ### Visualization
-Danielle 
+Danielle
+    
+## Technology
+
+### Data Preprocessing
+
+- Python
+- Jupyter Notebook
+- Matplotlib
+
+### Database Storage
+
+- PostgreSQL
+- pgAdmin4
+
+### Machine Learning
+
+SciKitLearn - machine learning library to fit the model.
+
+### Dashboard
+
+- Tableau - to create a dashboard displaying the results of our analysis.
+- GitHub - ReadMe and files for project
+
+## Segment I: Sketch It Out!
+
+- First segment list of deliverables:
+
+    - Finalize dataset for the project
+    - Making a flowchart
+    - Identification of technology
+    - Creating database
+    - Mockup of machine learning
+ 
+### Exploratory Data Analysis (ERD)
+
+#### Entity Relationship Diagram (ERD)
+
+#### Database Storage Set up
+    
+### Machine Learning mockup
+    
+##### Description of the preliminary data preprocessing
+
+##### Description of preliminary feature selection
+
+##### Explanation of model choice
+
+=======
 - Discuss ideas for possible visuals for the final project
 - Look over data to see what visual applications may fit
 ## Methods 
 > Unsupervised ML 
 ## Why and How ?
-
 
 ## Data Cleaning
 > Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data 
