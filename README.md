@@ -20,7 +20,9 @@
     
 
 ## Datasets
-* <b> To be update <b>
+- [World_Happiness_Report_2021](https://www.kaggle.com/datasets/mathurinache/world-happiness-report?select=2021.csv)
+- [Unemployment_data_2021.csv](https://github.com/yaparnehir/Final_Project/blob/a81f6fd344fe9690ee0cd27da7d06214f74a68a6/Resources/Unemployment_data_2021.csv)
+    - For the Unemployment data, <em> please see "Acknowledgement" section at the bottom </em>
 
 ## FlowChart
 <p align="center">
