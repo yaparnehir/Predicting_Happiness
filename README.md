@@ -1,7 +1,17 @@
 # Final_Project
+## Topic
+> <b> To be update <b>
+### The reason why we selected this topic
+> <b> To be update <b>
+### Description of the source data
+> <b> To be update <b>
+### Questions we hope to answer
+* What is the correlation between happiness and income?
+* How employement status effect on happiness ?
+* Can overall poverty in indivual country lower the expectation ? 
+* Can we create a heat map regarding to our results to see if there is a relation between geolocation and income-happiness data results ?
 ## Datasets
-* https://www.kaggle.com/datasets/vinitasilaparasetty/country-coordinates-world
-* https://www.kaggle.com/datasets/levyedgar44/income-and-happiness-correction
+* <b> To be update <b>
 
 ## FlowChart
 <p align="center">
@@ -12,6 +22,10 @@
 ## Roles
 ### Square
 Nehir
+- Responsible for the repository
+- Make sure everyone has a branch on their own
+- Watching all the process was made in branches, keep the updates.
+- Testing, discussing before merging into a main branch.
 ### Triangle
 Nusrat
 ### Circle
@@ -30,10 +44,11 @@ Danielle
 - Look over data to see what visual applications may fit
 ## Methods 
 > Unsupervised ML 
+## Why and How ?
 
 
 ## Data Cleaning
-> Drop extra column , drop empty rows, check duplicates
+> Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data 
 
 
 ## Acknowledgement
