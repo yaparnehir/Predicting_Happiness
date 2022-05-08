@@ -105,7 +105,7 @@ SciKitLearn - machine learning library to fit the model.
     - Dropping uneccesary columns;
     - Merging potentially significant feature from external sources;
     - Fitting a multiple linear regression model to check model fit.
-- Immdiate next steps are:
+- Immediate next steps are:
     - Creating a dictionary to accurately merge data from different sources (since Country names may not be standardized across all sources);
     - Explore correlation of potential features with the target.
 
