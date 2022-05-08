@@ -1,6 +1,7 @@
 # Final_Project
 ## Topic
 > <b> To be update <b>
+
     
 ### The reason why we selected this topic
 > <b> To be update <b>
@@ -8,13 +9,16 @@
 ### Description of the source data
 > <b> To be update <b>
     
+
 ### Questions we hope to answer
 * What is the correlation between happiness and income?
 * How employement status effect on happiness ?
 * Can overall poverty in indivual country lower the expectation ? 
 * Can we create a heat map regarding to our results to see if there is a relation between geolocation and income-happiness data results ?
+
 * What other factors contribute to happiness? Can we find features which can predict happiness more accurately?
     
+
 ## Datasets
 * <b> To be update <b>
 
@@ -31,7 +35,7 @@ Nehir
 - Make sure everyone has a branch on their own
 - Watching all the process was made in branches, keep the updates.
 - Testing, discussing before merging into a main branch.
-    
+
 ### Triangle
 Nusrat
 - Contribute to data cleaning and processing;
@@ -43,9 +47,12 @@ Nusrat
     
 ### Circle
 Amanda
-    
+
 ### X Role
-    
+
+![Diagram](/Dataset%20diagram.PNG)
+
+
 Kartikye
 - discuss how data will be cleaned then merged, may need to create additonal tables in database to export
 - assist <b>Amanda</b> in laying down framework for SQL files
@@ -54,6 +61,7 @@ Kartikye
 - assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
 
 ### Visualization
+
     
 Danielle
 - Discuss ideas for possible visuals for the final project.
@@ -120,6 +128,7 @@ SciKitLearn - machine learning library to fit the model.
     - Generosity;
     - Perception of corruption.
 
+
 - There are other factors which may influence happiness and these will be explored. Some examples are:
     - Income inequality;
     - Unemployment rate;
@@ -127,13 +136,16 @@ SciKitLearn - machine learning library to fit the model.
     - Pollution;
     - Trust (interpersonal, as social capital).
 
-#### Explanation of model choice
-    
-As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**. If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
+
+## Data Cleaning
+> Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data 
+
 
 
 ## Acknowledgement
 - [World Happinessdata](https://worldhappiness.report/ed/2021/)
     - Citation:Helliwell, John F., Richard Layard, Jeffrey Sachs and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
 - [Unemployment_Data_2021](https://github.com/yaparnehir/Final_Project/blob/f72b4a866c1284cc01315dc9db79fd6bb1c64893/Resources/Unemployment_data_2021.csv)
+
     - International Labour Organization, ILOSTAT database
+
