@@ -30,7 +30,7 @@ Nehir
 
 - Nusrat
 
-    - Data preprocessing
+    - Contribute to data cleaning and preprocessing
     - 
     -
     
@@ -45,7 +45,8 @@ Kartikye
 - assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
 
 ### Visualization
-Danielle 
+Danielle
+    
 ## Technology
 
 ### Data Preprocessing
@@ -83,6 +84,15 @@ SciKitLearn - machine learning library to fit the model.
 #### Entity Relationship Diagram (ERD)
 
 #### Database Storage Set up
+    
+### Machine Learning mockup
+    
+##### Description of the preliminary data preprocessing
+
+##### Description of preliminary feature selection
+
+##### Explanation of model choice
+
 =======
 - Discuss ideas for possible visuals for the final project
 - Look over data to see what visual applications may fit
