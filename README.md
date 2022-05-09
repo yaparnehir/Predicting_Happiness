@@ -29,6 +29,7 @@ Danielle
 - Discuss ideas for possible visuals for the final project
 - Look over data to see what visual applications may fit
    - Tableau and other applications are being considered.
+- Also researching ideas for including interactivity and refering back to past modules.
 ## Methods 
 > Unsupervised ML 
 
