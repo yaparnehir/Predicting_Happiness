@@ -1,0 +1,14 @@
+Main
+*Python 3.7 or above
+*Jupyter Notebook
+*Git bash
+*Visual Studio
+* Tableau
+Libraries in the working environment
+- Pandas
+-Plotly
+-Scikit-learn
+-hvPlot
+-NumPy
+-SciPy
+-imbalanced-learn
