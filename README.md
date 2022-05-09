@@ -1,13 +1,9 @@
 # Final_Project
 ## Topic
-> <b> To be update <b>
-
-    
-### The reason why we selected this topic
-> <b> To be update <b>
+> According to employment and income dataset, what is the correlation between happiness and economical factors ? Which factors has more affect on the topic ?
     
 ### Description of the source data
-> <b> To be update <b>
+> Discussion and research process showed us the best and the most cleaned sets were 2021. After pandemic started globally we could see the analysis, surveys and results more easy since there are more tendency on those topics. Although the most recent one is 2022 datasets, we focused on the 2021. The reason is simply the year has not ended yet and it does not satisfy our expectations and they were incomplete.
     
 
 ### Questions we hope to answer
