@@ -2,7 +2,7 @@ Country name,Unemployment rate
 Aruba,
 Africa Eastern and Southern,8.1117826
 Afghanistan,13.28299999
-Africa Western and Central,6.839008647
+Africa Western and Central,6.839008647000001
 Angola,8.529999733
 Albania,11.81900024
 Andorra,
@@ -13,46 +13,46 @@ Armenia,20.89699936
 American Samoa,
 Antigua and Barbuda,
 Australia,5.111999989
-Austria,6.301000118
-Azerbaijan,6.583000183
+Austria,6.301000117999999
+Azerbaijan,6.583000182999999
 Burundi,1.792000055
 Belgium,6.420000076
 Benin,1.574000001
-Burkina Faso,4.757999897
+Burkina Faso,4.7579998969999995
 Bangladesh,5.229000092
 Bulgaria,5.423999786
-Bahrain,1.873999953
+Bahrain,1.8739999530000002
 "Bahamas, The",13.23900032
 Bosnia and Herzegovina,15.21500015
 Belarus,4.736000061
-Belize,8.218999863
+Belize,8.218999862999999
 Bermuda,
 Bolivia,8.508999825
 Brazil,14.40299988
 Barbados,10.41300011
 Brunei Darussalam,7.649000168
-Bhutan,4.331999779
+Bhutan,4.331999778999999
 Botswana,24.72200012
-Central African Republic,6.574999809
+Central African Republic,6.5749998089999995
 Canada,7.510000229
 Central Europe and the Baltics,4.503917027
 Switzerland,5.321000099
-Channel Islands,7.369999886
+Channel Islands,7.3699998860000004
 Chile,9.128000259
 China,4.816999912
 Ivory Coast,3.467999935
 Cameroon,3.86500001
-"Congo, Dem. Rep.",5.426000118
+"Congo, Dem. Rep.",5.426000117999999
 Congo (Brazzaville),23.01099968
 Colombia,14.33600044
 Comoros,9.44699955
 Cabo Verde,15.42300034
 Costa Rica,17.95400047
 Caribbean small states,9.763585566
-Cuba,2.756000042
+Cuba,2.7560000419999997
 Curacao,
 Cayman Islands,
-Cyprus,6.130000114
+Cyprus,6.1300001139999996
 Czech Republic,2.887000084
 Germany,3.535000086
 Djibouti,28.38599968
@@ -62,20 +62,20 @@ Dominican Republic,8.49600029
 Algeria,12.70400047
 East Asia & Pacific (excluding high income),4.292848931
 Early-demographic dividend,6.486884225
-East Asia & Pacific,4.202061301
+East Asia & Pacific,4.2020613010000005
 Europe & Central Asia (excluding high income),7.635496454
 Europe & Central Asia,7.114943714
 Ecuador,6.427000046
-Egypt,9.329000473
-Euro area,7.767011192
+Egypt,9.329000472999999
+Euro area,7.767011192000001
 Eritrea,8.046999931
-Spain,14.7329998
-Estonia,6.330999851
-Ethiopia,3.694000006
+Spain,14.732999800000002
+Estonia,6.3309998510000005
+Ethiopia,3.6940000060000004
 European Union,7.044628684
 Fragile and conflict affected situations,7.60224461
 Finland,7.525000095
-Fiji,5.238999844
+Fiji,5.238999843999999
 France,8.062999725
 Faroe Islands,
 "Micronesia, Fed. Sts.",
@@ -84,7 +84,7 @@ United Kingdom,4.526000023
 Georgia,10.6590004
 Ghana,4.703999996
 Gibraltar,
-Guinea,6.342000008
+Guinea,6.342000007999999
 Gambia,11.21199989
 Guinea-Bissau,6.758999825
 Equatorial Guinea,9.244999886
@@ -106,7 +106,7 @@ IDA & IBRD total,6.304753759
 IDA total,5.871690827
 IDA blend,6.654428748
 Indonesia,4.413000107
-IDA only,5.525142901
+IDA only,5.525142901000001
 Isle of Man,
 India,5.978000164
 Not classified,
@@ -137,15 +137,15 @@ Latin America & Caribbean,9.96169716
 Least developed countries: UN classification,5.552541512
 Low income,5.85062995
 Liechtenstein,
-Sri Lanka,5.394999981
+Sri Lanka,5.394999981000001
 Lower middle income,5.887554079
 Low & middle income,6.290812071
 Lesotho,24.59799957
-Late-demographic dividend,5.792753409
-Lithuania,7.902999878
-Luxembourg,5.227000237
+Late-demographic dividend,5.7927534089999995
+Lithuania,7.902999877999999
+Luxembourg,5.2270002369999995
 Latvia,7.599999905
-"Macao SAR, China",3.013999939
+"Macao SAR, China",3.0139999389999996
 St. Martin (French part),
 Morocco,11.46700001
 Monaco,
@@ -155,26 +155,26 @@ Maldives,6.078000069
 Middle East & North Africa,10.53048794
 Mexico,4.379000187
 Marshall Islands,
-Middle income,6.335950197
+Middle income,6.335950197000001
 North Macedonia,16.20299911
 Mali,7.71999979
 Malta,3.499000072
 Myanmar,2.173000097
 Middle East & North Africa (excluding high income),12.18869529
 Montenegro,18.48699951
-Mongolia,7.081999779
+Mongolia,7.081999778999999
 Northern Mariana Islands,
-Mozambique,3.982000113
-Mauritania,11.4630003
+Mozambique,3.9820001130000002
+Mauritania,11.463000300000001
 Mauritius,7.414000034
-Malawi,7.020999908
+Malawi,7.020999907999999
 Malaysia,4.609000206
-North America,5.695046843
+North America,5.695046842999999
 Namibia,21.6779995
 New Caledonia,16.5720005
 Niger,0.750999987
 Nigeria,9.788000107
-Nicaragua,5.956999779
+Nicaragua,5.956999778999999
 Netherlands,4.010000229
 Norway,4.985000134
 Nepal,5.052000046
@@ -183,24 +183,24 @@ New Zealand,4.124000072
 OECD members,6.3345547
 Oman,3.121999979
 Other small states,10.98367954
-Pakistan,4.352000237
-Panama,12.0880003
+Pakistan,4.3520002369999995
+Panama,12.088000300000001
 Peru,4.833000183
 Philippines,2.405999899
 Palau,
 Papua New Guinea,2.752000093
-Poland,3.368000031
-Pre-demographic dividend,7.074955658
+Poland,3.3680000310000002
+Pre-demographic dividend,7.0749556579999995
 Puerto Rico,8.270999908
-"Korea, Dem. People's Rep.",2.592000008
+"Korea, Dem. People's Rep.",2.5920000080000003
 Portugal,6.646999836
-Paraguay,7.205999851
+Paraguay,7.2059998510000005
 West Bank and Gaza,24.90299988
 Pacific island small states,3.413623535
 Post-demographic dividend,5.806600772
 French Polynesia,14.39099979
 Qatar,0.257999986
-Romania,5.169000149
+Romania,5.1690001489999995
 Russia,5.010000229
 Rwanda,1.606999993
 South Asia,5.789641626
@@ -210,7 +210,7 @@ Senegal,3.72300005
 Singapore,3.624000072
 Solomon Islands,1.029000044
 Sierra Leone,5.333000183
-El Salvador,5.940000057
+El Salvador,5.940000057000001
 San Marino,
 Somalia,19.86499977
 Serbia,11.80700016
@@ -218,23 +218,23 @@ Sub-Saharan Africa (excluding high income),7.657158645
 South Sudan,13.91499996
 Sub-Saharan Africa,7.657158645
 Small states,10.37426928
-Sao Tome and Principe,15.9090004
+Sao Tome and Principe,15.909000400000002
 Suriname,10.06499958
 Slovakia,6.739999771
 Slovenia,4.422999859
-Sweden,8.661000252
+Sweden,8.661000252000001
 Swaziland,25.75600052
 Sint Maarten (Dutch part),
 Seychelles,
 Syrian Arab Republic,10.57299995
 Turks and Caicos Islands,
 Chad,1.881999969
-East Asia & Pacific (IDA & IBRD countries),4.318347176
-Europe & Central Asia (IDA & IBRD countries),7.269277068
+East Asia & Pacific (IDA & IBRD countries),4.3183471760000005
+Europe & Central Asia (IDA & IBRD countries),7.269277067999999
 Togo,4.004000187
 Thailand,1.417999983
-Tajikistan,7.754000187
-Turkmenistan,5.080999851
+Tajikistan,7.754000187000001
+Turkmenistan,5.0809998510000005
 Latin America & the Caribbean (IDA & IBRD countries),10.09101808
 Timor-Leste,5.073999882
 Middle East & North Africa (IDA & IBRD countries),12.04669942
@@ -242,11 +242,11 @@ Tonga,3.967999935
 South Asia (IDA & IBRD),5.789641626
 Sub-Saharan Africa (IDA & IBRD countries),7.657158645
 Trinidad and Tobago,4.804999828
-Tunisia,16.8239994
+Tunisia,16.823999399999998
 Turkey,13.38599968
 Tuvalu,
 Tanzania,2.648999929
-Uganda,2.936000109
+Uganda,2.9360001089999996
 Ukraine,8.87899971
 Upper middle income,6.771810049
 Uruguay,10.44699955
@@ -258,7 +258,7 @@ British Virgin Islands,
 Virgin Islands (U.S.),13.26500034
 Vietnam,2.165999889
 Vanuatu,2.180000067
-World,6.177190483
+World,6.1771904829999995
 Samoa,9.836999893
 Kosovo,
 Yemen,13.57400036
