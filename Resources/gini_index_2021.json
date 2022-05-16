@@ -1,0 +1,832 @@
+{
+    "United States": {
+        "Country name": "United States",
+        "Index of institutional trust": "0.25",
+        "Gini coefficient of income": "47.51"
+    },
+    "Egypt": {
+        "Country name": "Egypt",
+        "Index of institutional trust": "0.446",
+        "Gini coefficient of income": "31.56"
+    },
+    "Morocco": {
+        "Country name": "Morocco",
+        "Index of institutional trust": "0.397",
+        "Gini coefficient of income": "39.55"
+    },
+    "Lebanon": {
+        "Country name": "Lebanon",
+        "Index of institutional trust": "0.107",
+        "Gini coefficient of income": "31.83"
+    },
+    "Saudi Arabia": {
+        "Country name": "Saudi Arabia",
+        "Index of institutional trust": "0.6509999999999999",
+        "Gini coefficient of income": "45.9"
+    },
+    "Jordan": {
+        "Country name": "Jordan",
+        "Index of institutional trust": "0.465",
+        "Gini coefficient of income": "33.1"
+    },
+    "Syria": {
+        "Country name": "Syria",
+        "Index of institutional trust": "0.319",
+        "Gini coefficient of income": "34.2"
+    },
+    "Turkey": {
+        "Country name": "Turkey",
+        "Index of institutional trust": "0.295",
+        "Gini coefficient of income": "40.55"
+    },
+    "Pakistan": {
+        "Country name": "Pakistan",
+        "Index of institutional trust": "0.27699999999999997",
+        "Gini coefficient of income": "33.45"
+    },
+    "Indonesia": {
+        "Country name": "Indonesia",
+        "Index of institutional trust": "0.561",
+        "Gini coefficient of income": "37.478"
+    },
+    "Bangladesh": {
+        "Country name": "Bangladesh",
+        "Index of institutional trust": "0.5770000000000001",
+        "Gini coefficient of income": "43.973"
+    },
+    "United Kingdom": {
+        "Country name": "United Kingdom",
+        "Index of institutional trust": "0.268",
+        "Gini coefficient of income": "34.07"
+    },
+    "France": {
+        "Country name": "France",
+        "Index of institutional trust": "0.23399999999999999",
+        "Gini coefficient of income": "29.3"
+    },
+    "Germany": {
+        "Country name": "Germany",
+        "Index of institutional trust": "0.435",
+        "Gini coefficient of income": "31.1"
+    },
+    "Netherlands": {
+        "Country name": "Netherlands",
+        "Index of institutional trust": "0.522",
+        "Gini coefficient of income": "27.0"
+    },
+    "Belgium": {
+        "Country name": "Belgium",
+        "Index of institutional trust": "0.303",
+        "Gini coefficient of income": "25.6"
+    },
+    "Spain": {
+        "Country name": "Spain",
+        "Index of institutional trust": "0.14300000000000002",
+        "Gini coefficient of income": "33.2"
+    },
+    "Italy": {
+        "Country name": "Italy",
+        "Index of institutional trust": "0.076",
+        "Gini coefficient of income": "33.4"
+    },
+    "Poland": {
+        "Country name": "Poland",
+        "Index of institutional trust": "0.304",
+        "Gini coefficient of income": "27.8"
+    },
+    "Hungary": {
+        "Country name": "Hungary",
+        "Index of institutional trust": "0.253",
+        "Gini coefficient of income": "28.7"
+    },
+    "Czech Republic": {
+        "Country name": "Czech Republic",
+        "Index of institutional trust": "0.29",
+        "Gini coefficient of income": "24.0"
+    },
+    "Romania": {
+        "Country name": "Romania",
+        "Index of institutional trust": "0.1",
+        "Gini coefficient of income": "35.1"
+    },
+    "Sweden": {
+        "Country name": "Sweden",
+        "Index of institutional trust": "0.451",
+        "Gini coefficient of income": "27.0"
+    },
+    "Greece": {
+        "Country name": "Greece",
+        "Index of institutional trust": "0.124",
+        "Gini coefficient of income": "32.3"
+    },
+    "Denmark": {
+        "Country name": "Denmark",
+        "Index of institutional trust": "0.5720000000000001",
+        "Gini coefficient of income": "27.8"
+    },
+    "Iran": {
+        "Country name": "Iran",
+        "Index of institutional trust": "0.36700000000000005",
+        "Gini coefficient of income": "39.97"
+    },
+    "Hong Kong S.A.R. of China": {
+        "Country name": "Hong Kong S.A.R. of China",
+        "Index of institutional trust": "0.318",
+        "Gini coefficient of income": "48.275"
+    },
+    "Singapore": {
+        "Country name": "Singapore",
+        "Index of institutional trust": "0.8690000000000001",
+        "Gini coefficient of income": "45.2"
+    },
+    "Japan": {
+        "Country name": "Japan",
+        "Index of institutional trust": "0.317",
+        "Gini coefficient of income": "33.9"
+    },
+    "China": {
+        "Country name": "China",
+        "Index of institutional trust": "0.516",
+        "Gini coefficient of income": "46.7"
+    },
+    "India": {
+        "Country name": "India",
+        "Index of institutional trust": "0.526",
+        "Gini coefficient of income": "39.334"
+    },
+    "Venezuela": {
+        "Country name": "Venezuela",
+        "Index of institutional trust": "0.12",
+        "Gini coefficient of income": "37.8"
+    },
+    "Brazil": {
+        "Country name": "Brazil",
+        "Index of institutional trust": "0.115",
+        "Gini coefficient of income": "54.0"
+    },
+    "Mexico": {
+        "Country name": "Mexico",
+        "Index of institutional trust": "0.129",
+        "Gini coefficient of income": "47.5"
+    },
+    "Nigeria": {
+        "Country name": "Nigeria",
+        "Index of institutional trust": "0.2",
+        "Gini coefficient of income": "44.894"
+    },
+    "Kenya": {
+        "Country name": "Kenya",
+        "Index of institutional trust": "0.331",
+        "Gini coefficient of income": "40.78"
+    },
+    "Tanzania": {
+        "Country name": "Tanzania",
+        "Index of institutional trust": "0.621",
+        "Gini coefficient of income": "37.78"
+    },
+    "Israel": {
+        "Country name": "Israel",
+        "Index of institutional trust": "0.262",
+        "Gini coefficient of income": "34.4"
+    },
+    "Palestinian Territories": {
+        "Country name": "Palestinian Territories",
+        "Index of institutional trust": "0.16399999999999998",
+        "Gini coefficient of income": "33.69"
+    },
+    "Ghana": {
+        "Country name": "Ghana",
+        "Index of institutional trust": "0.305",
+        "Gini coefficient of income": "43.52"
+    },
+    "Uganda": {
+        "Country name": "Uganda",
+        "Index of institutional trust": "0.239",
+        "Gini coefficient of income": "42.75"
+    },
+    "Benin": {
+        "Country name": "Benin",
+        "Index of institutional trust": "0.39799999999999996",
+        "Gini coefficient of income": "47.76"
+    },
+    "Madagascar": {
+        "Country name": "Madagascar",
+        "Index of institutional trust": "0.312",
+        "Gini coefficient of income": "42.65"
+    },
+    "Malawi": {
+        "Country name": "Malawi",
+        "Index of institutional trust": "0.32299999999999995",
+        "Gini coefficient of income": "44.69"
+    },
+    "South Africa": {
+        "Country name": "South Africa",
+        "Index of institutional trust": "0.193",
+        "Gini coefficient of income": "65.426"
+    },
+    "Canada": {
+        "Country name": "Canada",
+        "Index of institutional trust": "0.48200000000000004",
+        "Gini coefficient of income": "35.25"
+    },
+    "Australia": {
+        "Country name": "Australia",
+        "Index of institutional trust": "0.335",
+        "Gini coefficient of income": "33.0"
+    },
+    "Philippines": {
+        "Country name": "Philippines",
+        "Index of institutional trust": "0.52",
+        "Gini coefficient of income": "42.23"
+    },
+    "Sri Lanka": {
+        "Country name": "Sri Lanka",
+        "Index of institutional trust": "0.368",
+        "Gini coefficient of income": "41.937"
+    },
+    "Vietnam": {
+        "Country name": "Vietnam",
+        "Index of institutional trust": "0.49",
+        "Gini coefficient of income": "40.1"
+    },
+    "Thailand": {
+        "Country name": "Thailand",
+        "Index of institutional trust": "0.354",
+        "Gini coefficient of income": "35.315"
+    },
+    "Cambodia": {
+        "Country name": "Cambodia",
+        "Index of institutional trust": "0.498",
+        "Gini coefficient of income": "36.0"
+    },
+    "Laos": {
+        "Country name": "Laos",
+        "Index of institutional trust": "0.708",
+        "Gini coefficient of income": "36.39"
+    },
+    "Myanmar": {
+        "Country name": "Myanmar",
+        "Index of institutional trust": "0.621",
+        "Gini coefficient of income": "38.07"
+    },
+    "New Zealand": {
+        "Country name": "New Zealand",
+        "Index of institutional trust": "0.527",
+        "Gini coefficient of income": "34.1"
+    },
+    "Angola": {
+        "Country name": "Angola",
+        "Index of institutional trust": "0.278",
+        "Gini coefficient of income": "46.103"
+    },
+    "Botswana": {
+        "Country name": "Botswana",
+        "Index of institutional trust": "0.435",
+        "Gini coefficient of income": "53.33"
+    },
+    "Ethiopia": {
+        "Country name": "Ethiopia",
+        "Index of institutional trust": "0.397",
+        "Gini coefficient of income": "33.498000000000005"
+    },
+    "Mali": {
+        "Country name": "Mali",
+        "Index of institutional trust": "0.27399999999999997",
+        "Gini coefficient of income": "33.04"
+    },
+    "Mauritania": {
+        "Country name": "Mauritania",
+        "Index of institutional trust": "0.122",
+        "Gini coefficient of income": "32.62"
+    },
+    "Mozambique": {
+        "Country name": "Mozambique",
+        "Index of institutional trust": "0.473",
+        "Gini coefficient of income": "49.417"
+    },
+    "Niger": {
+        "Country name": "Niger",
+        "Index of institutional trust": "0.484",
+        "Gini coefficient of income": "34.28"
+    },
+    "Rwanda": {
+        "Country name": "Rwanda",
+        "Index of institutional trust": "0.9059999999999999",
+        "Gini coefficient of income": "43.71"
+    },
+    "Senegal": {
+        "Country name": "Senegal",
+        "Index of institutional trust": "0.355",
+        "Gini coefficient of income": "40.29"
+    },
+    "Zambia": {
+        "Country name": "Zambia",
+        "Index of institutional trust": "0.322",
+        "Gini coefficient of income": "57.14"
+    },
+    "South Korea": {
+        "Country name": "South Korea",
+        "Index of institutional trust": "0.11199999999999999",
+        "Gini coefficient of income": "35.5"
+    },
+    "Taiwan Province of China": {
+        "Country name": "Taiwan Province of China",
+        "Index of institutional trust": "0.158",
+        "Gini coefficient of income": "29.467"
+    },
+    "Afghanistan": {
+        "Country name": "Afghanistan",
+        "Index of institutional trust": "0.046",
+        "Gini coefficient of income": "31.0"
+    },
+    "Belarus": {
+        "Country name": "Belarus",
+        "Index of institutional trust": "0.242",
+        "Gini coefficient of income": "25.44"
+    },
+    "Georgia": {
+        "Country name": "Georgia",
+        "Index of institutional trust": "0.198",
+        "Gini coefficient of income": "37.94"
+    },
+    "Kazakhstan": {
+        "Country name": "Kazakhstan",
+        "Index of institutional trust": "0.35200000000000004",
+        "Gini coefficient of income": "27.45"
+    },
+    "Kyrgyzstan": {
+        "Country name": "Kyrgyzstan",
+        "Index of institutional trust": "0.18600000000000003",
+        "Gini coefficient of income": "27.34"
+    },
+    "Moldova": {
+        "Country name": "Moldova",
+        "Index of institutional trust": "0.10400000000000001",
+        "Gini coefficient of income": "25.9"
+    },
+    "Russia": {
+        "Country name": "Russia",
+        "Index of institutional trust": "0.196",
+        "Gini coefficient of income": "34.56"
+    },
+    "Ukraine": {
+        "Country name": "Ukraine",
+        "Index of institutional trust": "0.059000000000000004",
+        "Gini coefficient of income": "25.0"
+    },
+    "Burkina Faso": {
+        "Country name": "Burkina Faso",
+        "Index of institutional trust": "0.359",
+        "Gini coefficient of income": "35.3"
+    },
+    "Cameroon": {
+        "Country name": "Cameroon",
+        "Index of institutional trust": "0.281",
+        "Gini coefficient of income": "46.64"
+    },
+    "Sierra Leone": {
+        "Country name": "Sierra Leone",
+        "Index of institutional trust": "0.33799999999999997",
+        "Gini coefficient of income": "34.03"
+    },
+    "Zimbabwe": {
+        "Country name": "Zimbabwe",
+        "Index of institutional trust": "0.287",
+        "Gini coefficient of income": "40.363"
+    },
+    "Costa Rica": {
+        "Country name": "Costa Rica",
+        "Index of institutional trust": "0.213",
+        "Gini coefficient of income": "48.6"
+    },
+    "Albania": {
+        "Country name": "Albania",
+        "Index of institutional trust": "0.15",
+        "Gini coefficient of income": "28.96"
+    },
+    "Algeria": {
+        "Country name": "Algeria",
+        "Index of institutional trust": "0.415",
+        "Gini coefficient of income": "27.62"
+    },
+    "Argentina": {
+        "Country name": "Argentina",
+        "Index of institutional trust": "0.091",
+        "Gini coefficient of income": "39.6"
+    },
+    "Armenia": {
+        "Country name": "Armenia",
+        "Index of institutional trust": "0.174",
+        "Gini coefficient of income": "33.62"
+    },
+    "Austria": {
+        "Country name": "Austria",
+        "Index of institutional trust": "0.358",
+        "Gini coefficient of income": "26.8"
+    },
+    "Azerbaijan": {
+        "Country name": "Azerbaijan",
+        "Index of institutional trust": "0.35200000000000004",
+        "Gini coefficient of income": "26.6"
+    },
+    "Bahrain": {
+        "Country name": "Bahrain",
+        "Index of institutional trust": "0.48700000000000004",
+        "Gini coefficient of income": "59.6"
+    },
+    "Belize": {
+        "Country name": "Belize",
+        "Index of institutional trust": "0.22699999999999998",
+        "Gini coefficient of income": "53.26"
+    },
+    "Bhutan": {
+        "Country name": "Bhutan",
+        "Index of institutional trust": "0.722",
+        "Gini coefficient of income": "37.44"
+    },
+    "Bolivia": {
+        "Country name": "Bolivia",
+        "Index of institutional trust": "0.10099999999999999",
+        "Gini coefficient of income": "43.8"
+    },
+    "Bosnia and Herzegovina": {
+        "Country name": "Bosnia and Herzegovina",
+        "Index of institutional trust": "0.064",
+        "Gini coefficient of income": "33.03"
+    },
+    "Bulgaria": {
+        "Country name": "Bulgaria",
+        "Index of institutional trust": "0.073",
+        "Gini coefficient of income": "39.6"
+    },
+    "Burundi": {
+        "Country name": "Burundi",
+        "Index of institutional trust": "0.293",
+        "Gini coefficient of income": "38.62"
+    },
+    "Central African Republic": {
+        "Country name": "Central African Republic",
+        "Index of institutional trust": "0.371",
+        "Gini coefficient of income": "56.24"
+    },
+    "Chad": {
+        "Country name": "Chad",
+        "Index of institutional trust": "0.26899999999999996",
+        "Gini coefficient of income": "43.32"
+    },
+    "Chile": {
+        "Country name": "Chile",
+        "Index of institutional trust": "0.09699999999999999",
+        "Gini coefficient of income": "45.92"
+    },
+    "Colombia": {
+        "Country name": "Colombia",
+        "Index of institutional trust": "0.113",
+        "Gini coefficient of income": "52.0"
+    },
+    "Comoros": {
+        "Country name": "Comoros",
+        "Index of institutional trust": "0.139",
+        "Gini coefficient of income": "45.33"
+    },
+    "Congo (Kinshasa)": {
+        "Country name": "Congo (Kinshasa)",
+        "Index of institutional trust": "0.257",
+        "Gini coefficient of income": "42.1"
+    },
+    "Congo (Brazzaville)": {
+        "Country name": "Congo (Brazzaville)",
+        "Index of institutional trust": "0.23800000000000002",
+        "Gini coefficient of income": "48.94"
+    },
+    "Croatia": {
+        "Country name": "Croatia",
+        "Index of institutional trust": "0.131",
+        "Gini coefficient of income": "29.7"
+    },
+    "Cuba": {
+        "Country name": "Cuba",
+        "Index of institutional trust": "0.7290000000000001",
+        "Gini coefficient of income": "38.0"
+    },
+    "Cyprus": {
+        "Country name": "Cyprus",
+        "Index of institutional trust": "0.174",
+        "Gini coefficient of income": "29.1"
+    },
+    "Djibouti": {
+        "Country name": "Djibouti",
+        "Index of institutional trust": "0.425",
+        "Gini coefficient of income": "41.59"
+    },
+    "Dominican Republic": {
+        "Country name": "Dominican Republic",
+        "Index of institutional trust": "0.19899999999999998",
+        "Gini coefficient of income": "44.4"
+    },
+    "Ecuador": {
+        "Country name": "Ecuador",
+        "Index of institutional trust": "0.205",
+        "Gini coefficient of income": "45.4"
+    },
+    "El Salvador": {
+        "Country name": "El Salvador",
+        "Index of institutional trust": "0.239",
+        "Gini coefficient of income": "40.5"
+    },
+    "Estonia": {
+        "Country name": "Estonia",
+        "Index of institutional trust": "0.27",
+        "Gini coefficient of income": "30.6"
+    },
+    "Finland": {
+        "Country name": "Finland",
+        "Index of institutional trust": "0.55",
+        "Gini coefficient of income": "25.9"
+    },
+    "Gabon": {
+        "Country name": "Gabon",
+        "Index of institutional trust": "0.10400000000000001",
+        "Gini coefficient of income": "38.02"
+    },
+    "Guatemala": {
+        "Country name": "Guatemala",
+        "Index of institutional trust": "0.28600000000000003",
+        "Gini coefficient of income": "44.488"
+    },
+    "Guinea": {
+        "Country name": "Guinea",
+        "Index of institutional trust": "0.349",
+        "Gini coefficient of income": "33.73"
+    },
+    "Guyana": {
+        "Country name": "Guyana",
+        "Index of institutional trust": "0.26",
+        "Gini coefficient of income": "35.0"
+    },
+    "Haiti": {
+        "Country name": "Haiti",
+        "Index of institutional trust": "0.21600000000000003",
+        "Gini coefficient of income": "50.945"
+    },
+    "Honduras": {
+        "Country name": "Honduras",
+        "Index of institutional trust": "0.209",
+        "Gini coefficient of income": "48.1"
+    },
+    "Iceland": {
+        "Country name": "Iceland",
+        "Index of institutional trust": "0.325",
+        "Gini coefficient of income": "24.1"
+    },
+    "Iraq": {
+        "Country name": "Iraq",
+        "Index of institutional trust": "0.133",
+        "Gini coefficient of income": "33.12"
+    },
+    "Ireland": {
+        "Country name": "Ireland",
+        "Index of institutional trust": "0.431",
+        "Gini coefficient of income": "30.6"
+    },
+    "Ivory Coast": {
+        "Country name": "Ivory Coast",
+        "Index of institutional trust": "0.285",
+        "Gini coefficient of income": "48.593999999999994"
+    },
+    "Jamaica": {
+        "Country name": "Jamaica",
+        "Index of institutional trust": "0.133",
+        "Gini coefficient of income": "37.48"
+    },
+    "Kuwait": {
+        "Country name": "Kuwait",
+        "Index of institutional trust": "0.38799999999999996",
+        "Gini coefficient of income": "36.02"
+    },
+    "Latvia": {
+        "Country name": "Latvia",
+        "Index of institutional trust": "0.096",
+        "Gini coefficient of income": "35.6"
+    },
+    "Lesotho": {
+        "Country name": "Lesotho",
+        "Index of institutional trust": "0.27899999999999997",
+        "Gini coefficient of income": "54.18"
+    },
+    "Liberia": {
+        "Country name": "Liberia",
+        "Index of institutional trust": "0.273",
+        "Gini coefficient of income": "35.27"
+    },
+    "Libya": {
+        "Country name": "Libya",
+        "Index of institutional trust": "0.311",
+        "Gini coefficient of income": "30.2"
+    },
+    "Lithuania": {
+        "Country name": "Lithuania",
+        "Index of institutional trust": "0.18899999999999997",
+        "Gini coefficient of income": "36.9"
+    },
+    "Luxembourg": {
+        "Country name": "Luxembourg",
+        "Index of institutional trust": "0.595",
+        "Gini coefficient of income": "30.9"
+    },
+    "North Macedonia": {
+        "Country name": "North Macedonia",
+        "Index of institutional trust": "0.105",
+        "Gini coefficient of income": "32.4"
+    },
+    "Malaysia": {
+        "Country name": "Malaysia",
+        "Index of institutional trust": "0.44299999999999995",
+        "Gini coefficient of income": "41.04"
+    },
+    "Maldives": {
+        "Country name": "Maldives",
+        "Index of institutional trust": "0.327",
+        "Gini coefficient of income": "37.343"
+    },
+    "Malta": {
+        "Country name": "Malta",
+        "Index of institutional trust": "0.40299999999999997",
+        "Gini coefficient of income": "28.7"
+    },
+    "Mauritius": {
+        "Country name": "Mauritius",
+        "Index of institutional trust": "0.41100000000000003",
+        "Gini coefficient of income": "38.47"
+    },
+    "Mongolia": {
+        "Country name": "Mongolia",
+        "Index of institutional trust": "0.102",
+        "Gini coefficient of income": "32.35"
+    },
+    "Montenegro": {
+        "Country name": "Montenegro",
+        "Index of institutional trust": "0.21600000000000003",
+        "Gini coefficient of income": "31.93"
+    },
+    "Namibia": {
+        "Country name": "Namibia",
+        "Index of institutional trust": "0.311",
+        "Gini coefficient of income": "57.535"
+    },
+    "Nepal": {
+        "Country name": "Nepal",
+        "Index of institutional trust": "0.392",
+        "Gini coefficient of income": "32.84"
+    },
+    "Nicaragua": {
+        "Country name": "Nicaragua",
+        "Index of institutional trust": "0.28",
+        "Gini coefficient of income": "46.515"
+    },
+    "Norway": {
+        "Country name": "Norway",
+        "Index of institutional trust": "0.606",
+        "Gini coefficient of income": "24.8"
+    },
+    "Oman": {
+        "Country name": "Oman",
+        "Index of institutional trust": "0.579",
+        "Gini coefficient of income": "30.7"
+    },
+    "Panama": {
+        "Country name": "Panama",
+        "Index of institutional trust": "0.182",
+        "Gini coefficient of income": "49.8"
+    },
+    "Paraguay": {
+        "Country name": "Paraguay",
+        "Index of institutional trust": "0.138",
+        "Gini coefficient of income": "47.4"
+    },
+    "Peru": {
+        "Country name": "Peru",
+        "Index of institutional trust": "0.096",
+        "Gini coefficient of income": "43.9"
+    },
+    "Portugal": {
+        "Country name": "Portugal",
+        "Index of institutional trust": "0.248",
+        "Gini coefficient of income": "32.1"
+    },
+    "Qatar": {
+        "Country name": "Qatar",
+        "Index of institutional trust": "0.6759999999999999",
+        "Gini coefficient of income": "30.233"
+    },
+    "Serbia": {
+        "Country name": "Serbia",
+        "Index of institutional trust": "0.221",
+        "Gini coefficient of income": "37.8"
+    },
+    "Slovakia": {
+        "Country name": "Slovakia",
+        "Index of institutional trust": "0.195",
+        "Gini coefficient of income": "23.2"
+    },
+    "Slovenia": {
+        "Country name": "Slovenia",
+        "Index of institutional trust": "0.177",
+        "Gini coefficient of income": "23.4"
+    },
+    "Somalia": {
+        "Country name": "Somalia",
+        "Index of institutional trust": "0.318",
+        "Gini coefficient of income": "39.7"
+    },
+    "Sudan": {
+        "Country name": "Sudan",
+        "Index of institutional trust": "0.375",
+        "Gini coefficient of income": "45.05"
+    },
+    "Suriname": {
+        "Country name": "Suriname",
+        "Index of institutional trust": "0.27399999999999997",
+        "Gini coefficient of income": "38.1"
+    },
+    "Swaziland": {
+        "Country name": "Swaziland",
+        "Index of institutional trust": "0.371",
+        "Gini coefficient of income": "51.45"
+    },
+    "Switzerland": {
+        "Country name": "Switzerland",
+        "Index of institutional trust": "0.66",
+        "Gini coefficient of income": "30.1"
+    },
+    "Tajikistan": {
+        "Country name": "Tajikistan",
+        "Index of institutional trust": "0.5539999999999999",
+        "Gini coefficient of income": "34.0"
+    },
+    "Gambia": {
+        "Country name": "Gambia",
+        "Index of institutional trust": "0.489",
+        "Gini coefficient of income": "35.92"
+    },
+    "Togo": {
+        "Country name": "Togo",
+        "Index of institutional trust": "0.212",
+        "Gini coefficient of income": "43.06"
+    },
+    "Trinidad and Tobago": {
+        "Country name": "Trinidad and Tobago",
+        "Index of institutional trust": "0.08199999999999999",
+        "Gini coefficient of income": "47.243"
+    },
+    "Tunisia": {
+        "Country name": "Tunisia",
+        "Index of institutional trust": "0.129",
+        "Gini coefficient of income": "32.82"
+    },
+    "Turkmenistan": {
+        "Country name": "Turkmenistan",
+        "Index of institutional trust": "0.511",
+        "Gini coefficient of income": "26.5"
+    },
+    "United Arab Emirates": {
+        "Country name": "United Arab Emirates",
+        "Index of institutional trust": "0.6940000000000001",
+        "Gini coefficient of income": "38.3"
+    },
+    "Uruguay": {
+        "Country name": "Uruguay",
+        "Index of institutional trust": "0.247",
+        "Gini coefficient of income": "39.25"
+    },
+    "Uzbekistan": {
+        "Country name": "Uzbekistan",
+        "Index of institutional trust": "0.435",
+        "Gini coefficient of income": "39.7"
+    },
+    "Yemen": {
+        "Country name": "Yemen",
+        "Index of institutional trust": "0.267",
+        "Gini coefficient of income": "36.71"
+    },
+    "Kosovo": {
+        "Country name": "Kosovo",
+        "Index of institutional trust": "0.16899999999999998",
+        "Gini coefficient of income": "29.01"
+    },
+    "Somaliland region": {
+        "Country name": "Somaliland region",
+        "Index of institutional trust": "",
+        "Gini coefficient of income": ""
+    },
+    "North Cyprus": {
+        "Country name": "North Cyprus",
+        "Index of institutional trust": "0.305",
+        "Gini coefficient of income": ""
+    },
+    "South Sudan": {
+        "Country name": "South Sudan",
+        "Index of institutional trust": "0.179",
+        "Gini coefficient of income": "46.34"
+    }
+}

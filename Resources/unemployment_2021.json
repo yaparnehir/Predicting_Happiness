@@ -1,0 +1,1066 @@
+{
+    "Aruba": {
+        "Country name": "Aruba",
+        "Unemployment rate": ""
+    },
+    "Africa Eastern and Southern": {
+        "Country name": "Africa Eastern and Southern",
+        "Unemployment rate": "8.1117826"
+    },
+    "Afghanistan": {
+        "Country name": "Afghanistan",
+        "Unemployment rate": "13.28299999"
+    },
+    "Africa Western and Central": {
+        "Country name": "Africa Western and Central",
+        "Unemployment rate": "6.839008647000001"
+    },
+    "Angola": {
+        "Country name": "Angola",
+        "Unemployment rate": "8.529999733"
+    },
+    "Albania": {
+        "Country name": "Albania",
+        "Unemployment rate": "11.81900024"
+    },
+    "Andorra": {
+        "Country name": "Andorra",
+        "Unemployment rate": ""
+    },
+    "Arab World": {
+        "Country name": "Arab World",
+        "Unemployment rate": "11.62534402"
+    },
+    "United Arab Emirates": {
+        "Country name": "United Arab Emirates",
+        "Unemployment rate": "3.35800004"
+    },
+    "Argentina": {
+        "Country name": "Argentina",
+        "Unemployment rate": "10.90200043"
+    },
+    "Armenia": {
+        "Country name": "Armenia",
+        "Unemployment rate": "20.89699936"
+    },
+    "American Samoa": {
+        "Country name": "American Samoa",
+        "Unemployment rate": ""
+    },
+    "Antigua and Barbuda": {
+        "Country name": "Antigua and Barbuda",
+        "Unemployment rate": ""
+    },
+    "Australia": {
+        "Country name": "Australia",
+        "Unemployment rate": "5.111999989"
+    },
+    "Austria": {
+        "Country name": "Austria",
+        "Unemployment rate": "6.301000117999999"
+    },
+    "Azerbaijan": {
+        "Country name": "Azerbaijan",
+        "Unemployment rate": "6.583000182999999"
+    },
+    "Burundi": {
+        "Country name": "Burundi",
+        "Unemployment rate": "1.792000055"
+    },
+    "Belgium": {
+        "Country name": "Belgium",
+        "Unemployment rate": "6.420000076"
+    },
+    "Benin": {
+        "Country name": "Benin",
+        "Unemployment rate": "1.574000001"
+    },
+    "Burkina Faso": {
+        "Country name": "Burkina Faso",
+        "Unemployment rate": "4.7579998969999995"
+    },
+    "Bangladesh": {
+        "Country name": "Bangladesh",
+        "Unemployment rate": "5.229000092"
+    },
+    "Bulgaria": {
+        "Country name": "Bulgaria",
+        "Unemployment rate": "5.423999786"
+    },
+    "Bahrain": {
+        "Country name": "Bahrain",
+        "Unemployment rate": "1.8739999530000002"
+    },
+    "Bahamas, The": {
+        "Country name": "Bahamas, The",
+        "Unemployment rate": "13.23900032"
+    },
+    "Bosnia and Herzegovina": {
+        "Country name": "Bosnia and Herzegovina",
+        "Unemployment rate": "15.21500015"
+    },
+    "Belarus": {
+        "Country name": "Belarus",
+        "Unemployment rate": "4.736000061"
+    },
+    "Belize": {
+        "Country name": "Belize",
+        "Unemployment rate": "8.218999862999999"
+    },
+    "Bermuda": {
+        "Country name": "Bermuda",
+        "Unemployment rate": ""
+    },
+    "Bolivia": {
+        "Country name": "Bolivia",
+        "Unemployment rate": "8.508999825"
+    },
+    "Brazil": {
+        "Country name": "Brazil",
+        "Unemployment rate": "14.40299988"
+    },
+    "Barbados": {
+        "Country name": "Barbados",
+        "Unemployment rate": "10.41300011"
+    },
+    "Brunei Darussalam": {
+        "Country name": "Brunei Darussalam",
+        "Unemployment rate": "7.649000168"
+    },
+    "Bhutan": {
+        "Country name": "Bhutan",
+        "Unemployment rate": "4.331999778999999"
+    },
+    "Botswana": {
+        "Country name": "Botswana",
+        "Unemployment rate": "24.72200012"
+    },
+    "Central African Republic": {
+        "Country name": "Central African Republic",
+        "Unemployment rate": "6.5749998089999995"
+    },
+    "Canada": {
+        "Country name": "Canada",
+        "Unemployment rate": "7.510000229"
+    },
+    "Central Europe and the Baltics": {
+        "Country name": "Central Europe and the Baltics",
+        "Unemployment rate": "4.503917027"
+    },
+    "Switzerland": {
+        "Country name": "Switzerland",
+        "Unemployment rate": "5.321000099"
+    },
+    "Channel Islands": {
+        "Country name": "Channel Islands",
+        "Unemployment rate": "7.3699998860000004"
+    },
+    "Chile": {
+        "Country name": "Chile",
+        "Unemployment rate": "9.128000259"
+    },
+    "China": {
+        "Country name": "China",
+        "Unemployment rate": "4.816999912"
+    },
+    "Ivory Coast": {
+        "Country name": "Ivory Coast",
+        "Unemployment rate": "3.467999935"
+    },
+    "Cameroon": {
+        "Country name": "Cameroon",
+        "Unemployment rate": "3.86500001"
+    },
+    "Congo, Dem. Rep.": {
+        "Country name": "Congo, Dem. Rep.",
+        "Unemployment rate": "5.426000117999999"
+    },
+    "Congo (Brazzaville)": {
+        "Country name": "Congo (Brazzaville)",
+        "Unemployment rate": "23.01099968"
+    },
+    "Colombia": {
+        "Country name": "Colombia",
+        "Unemployment rate": "14.33600044"
+    },
+    "Comoros": {
+        "Country name": "Comoros",
+        "Unemployment rate": "9.44699955"
+    },
+    "Cabo Verde": {
+        "Country name": "Cabo Verde",
+        "Unemployment rate": "15.42300034"
+    },
+    "Costa Rica": {
+        "Country name": "Costa Rica",
+        "Unemployment rate": "17.95400047"
+    },
+    "Caribbean small states": {
+        "Country name": "Caribbean small states",
+        "Unemployment rate": "9.763585566"
+    },
+    "Cuba": {
+        "Country name": "Cuba",
+        "Unemployment rate": "2.7560000419999997"
+    },
+    "Curacao": {
+        "Country name": "Curacao",
+        "Unemployment rate": ""
+    },
+    "Cayman Islands": {
+        "Country name": "Cayman Islands",
+        "Unemployment rate": ""
+    },
+    "Cyprus": {
+        "Country name": "Cyprus",
+        "Unemployment rate": "6.1300001139999996"
+    },
+    "Czech Republic": {
+        "Country name": "Czech Republic",
+        "Unemployment rate": "2.887000084"
+    },
+    "Germany": {
+        "Country name": "Germany",
+        "Unemployment rate": "3.535000086"
+    },
+    "Djibouti": {
+        "Country name": "Djibouti",
+        "Unemployment rate": "28.38599968"
+    },
+    "Dominica": {
+        "Country name": "Dominica",
+        "Unemployment rate": ""
+    },
+    "Denmark": {
+        "Country name": "Denmark",
+        "Unemployment rate": "4.797999859"
+    },
+    "Dominican Republic": {
+        "Country name": "Dominican Republic",
+        "Unemployment rate": "8.49600029"
+    },
+    "Algeria": {
+        "Country name": "Algeria",
+        "Unemployment rate": "12.70400047"
+    },
+    "East Asia & Pacific (excluding high income)": {
+        "Country name": "East Asia & Pacific (excluding high income)",
+        "Unemployment rate": "4.292848931"
+    },
+    "Early-demographic dividend": {
+        "Country name": "Early-demographic dividend",
+        "Unemployment rate": "6.486884225"
+    },
+    "East Asia & Pacific": {
+        "Country name": "East Asia & Pacific",
+        "Unemployment rate": "4.2020613010000005"
+    },
+    "Europe & Central Asia (excluding high income)": {
+        "Country name": "Europe & Central Asia (excluding high income)",
+        "Unemployment rate": "7.635496454"
+    },
+    "Europe & Central Asia": {
+        "Country name": "Europe & Central Asia",
+        "Unemployment rate": "7.114943714"
+    },
+    "Ecuador": {
+        "Country name": "Ecuador",
+        "Unemployment rate": "6.427000046"
+    },
+    "Egypt": {
+        "Country name": "Egypt",
+        "Unemployment rate": "9.329000472999999"
+    },
+    "Euro area": {
+        "Country name": "Euro area",
+        "Unemployment rate": "7.767011192000001"
+    },
+    "Eritrea": {
+        "Country name": "Eritrea",
+        "Unemployment rate": "8.046999931"
+    },
+    "Spain": {
+        "Country name": "Spain",
+        "Unemployment rate": "14.732999800000002"
+    },
+    "Estonia": {
+        "Country name": "Estonia",
+        "Unemployment rate": "6.3309998510000005"
+    },
+    "Ethiopia": {
+        "Country name": "Ethiopia",
+        "Unemployment rate": "3.6940000060000004"
+    },
+    "European Union": {
+        "Country name": "European Union",
+        "Unemployment rate": "7.044628684"
+    },
+    "Fragile and conflict affected situations": {
+        "Country name": "Fragile and conflict affected situations",
+        "Unemployment rate": "7.60224461"
+    },
+    "Finland": {
+        "Country name": "Finland",
+        "Unemployment rate": "7.525000095"
+    },
+    "Fiji": {
+        "Country name": "Fiji",
+        "Unemployment rate": "5.238999843999999"
+    },
+    "France": {
+        "Country name": "France",
+        "Unemployment rate": "8.062999725"
+    },
+    "Faroe Islands": {
+        "Country name": "Faroe Islands",
+        "Unemployment rate": ""
+    },
+    "Micronesia, Fed. Sts.": {
+        "Country name": "Micronesia, Fed. Sts.",
+        "Unemployment rate": ""
+    },
+    "Gabon": {
+        "Country name": "Gabon",
+        "Unemployment rate": "22.26499939"
+    },
+    "United Kingdom": {
+        "Country name": "United Kingdom",
+        "Unemployment rate": "4.526000023"
+    },
+    "Georgia": {
+        "Country name": "Georgia",
+        "Unemployment rate": "10.6590004"
+    },
+    "Ghana": {
+        "Country name": "Ghana",
+        "Unemployment rate": "4.703999996"
+    },
+    "Gibraltar": {
+        "Country name": "Gibraltar",
+        "Unemployment rate": ""
+    },
+    "Guinea": {
+        "Country name": "Guinea",
+        "Unemployment rate": "6.342000007999999"
+    },
+    "Gambia": {
+        "Country name": "Gambia",
+        "Unemployment rate": "11.21199989"
+    },
+    "Guinea-Bissau": {
+        "Country name": "Guinea-Bissau",
+        "Unemployment rate": "6.758999825"
+    },
+    "Equatorial Guinea": {
+        "Country name": "Equatorial Guinea",
+        "Unemployment rate": "9.244999886"
+    },
+    "Greece": {
+        "Country name": "Greece",
+        "Unemployment rate": "14.79500008"
+    },
+    "Grenada": {
+        "Country name": "Grenada",
+        "Unemployment rate": ""
+    },
+    "Greenland": {
+        "Country name": "Greenland",
+        "Unemployment rate": ""
+    },
+    "Guatemala": {
+        "Country name": "Guatemala",
+        "Unemployment rate": "3.572000027"
+    },
+    "Guam": {
+        "Country name": "Guam",
+        "Unemployment rate": "6.982999802"
+    },
+    "Guyana": {
+        "Country name": "Guyana",
+        "Unemployment rate": "16.42499924"
+    },
+    "High income": {
+        "Country name": "High income",
+        "Unemployment rate": "5.651806721"
+    },
+    "Hong Kong S.A.R. of China": {
+        "Country name": "Hong Kong S.A.R. of China",
+        "Unemployment rate": "5.315000057"
+    },
+    "Honduras": {
+        "Country name": "Honduras",
+        "Unemployment rate": "8.512999535"
+    },
+    "Heavily indebted poor countries (HIPC)": {
+        "Country name": "Heavily indebted poor countries (HIPC)",
+        "Unemployment rate": "5.661177778"
+    },
+    "Croatia": {
+        "Country name": "Croatia",
+        "Unemployment rate": "8.682999611"
+    },
+    "Haiti": {
+        "Country name": "Haiti",
+        "Unemployment rate": "15.72599983"
+    },
+    "Hungary": {
+        "Country name": "Hungary",
+        "Unemployment rate": "4.116000175"
+    },
+    "IBRD only": {
+        "Country name": "IBRD only",
+        "Unemployment rate": "6.436146028"
+    },
+    "IDA & IBRD total": {
+        "Country name": "IDA & IBRD total",
+        "Unemployment rate": "6.304753759"
+    },
+    "IDA total": {
+        "Country name": "IDA total",
+        "Unemployment rate": "5.871690827"
+    },
+    "IDA blend": {
+        "Country name": "IDA blend",
+        "Unemployment rate": "6.654428748"
+    },
+    "Indonesia": {
+        "Country name": "Indonesia",
+        "Unemployment rate": "4.413000107"
+    },
+    "IDA only": {
+        "Country name": "IDA only",
+        "Unemployment rate": "5.525142901000001"
+    },
+    "Isle of Man": {
+        "Country name": "Isle of Man",
+        "Unemployment rate": ""
+    },
+    "India": {
+        "Country name": "India",
+        "Unemployment rate": "5.978000164"
+    },
+    "Not classified": {
+        "Country name": "Not classified",
+        "Unemployment rate": ""
+    },
+    "Ireland": {
+        "Country name": "Ireland",
+        "Unemployment rate": "6.632999897"
+    },
+    "Iran": {
+        "Country name": "Iran",
+        "Unemployment rate": "11.46100044"
+    },
+    "Iraq": {
+        "Country name": "Iraq",
+        "Unemployment rate": "14.19200039"
+    },
+    "Iceland": {
+        "Country name": "Iceland",
+        "Unemployment rate": "5.401000023"
+    },
+    "Israel": {
+        "Country name": "Israel",
+        "Unemployment rate": "5.045000076"
+    },
+    "Italy": {
+        "Country name": "Italy",
+        "Unemployment rate": "9.833999634"
+    },
+    "Jamaica": {
+        "Country name": "Jamaica",
+        "Unemployment rate": "9.18200016"
+    },
+    "Jordan": {
+        "Country name": "Jordan",
+        "Unemployment rate": "19.25200081"
+    },
+    "Japan": {
+        "Country name": "Japan",
+        "Unemployment rate": "2.799000025"
+    },
+    "Kazakhstan": {
+        "Country name": "Kazakhstan",
+        "Unemployment rate": "4.900000095"
+    },
+    "Kenya": {
+        "Country name": "Kenya",
+        "Unemployment rate": "5.742000103"
+    },
+    "Kyrgyzstan": {
+        "Country name": "Kyrgyzstan",
+        "Unemployment rate": "9.104000092"
+    },
+    "Cambodia": {
+        "Country name": "Cambodia",
+        "Unemployment rate": "0.611999989"
+    },
+    "Kiribati": {
+        "Country name": "Kiribati",
+        "Unemployment rate": ""
+    },
+    "St. Kitts and Nevis": {
+        "Country name": "St. Kitts and Nevis",
+        "Unemployment rate": ""
+    },
+    "South Korea": {
+        "Country name": "South Korea",
+        "Unemployment rate": "3.532000065"
+    },
+    "Kuwait": {
+        "Country name": "Kuwait",
+        "Unemployment rate": "3.713999987"
+    },
+    "Latin America & Caribbean (excluding high income)": {
+        "Country name": "Latin America & Caribbean (excluding high income)",
+        "Unemployment rate": "10.13507308"
+    },
+    "Laos": {
+        "Country name": "Laos",
+        "Unemployment rate": "1.258000016"
+    },
+    "Lebanon": {
+        "Country name": "Lebanon",
+        "Unemployment rate": "14.48799992"
+    },
+    "Liberia": {
+        "Country name": "Liberia",
+        "Unemployment rate": "4.09499979"
+    },
+    "Libya": {
+        "Country name": "Libya",
+        "Unemployment rate": "19.58399963"
+    },
+    "St. Lucia": {
+        "Country name": "St. Lucia",
+        "Unemployment rate": "16.90500069"
+    },
+    "Latin America & Caribbean": {
+        "Country name": "Latin America & Caribbean",
+        "Unemployment rate": "9.96169716"
+    },
+    "Least developed countries: UN classification": {
+        "Country name": "Least developed countries: UN classification",
+        "Unemployment rate": "5.552541512"
+    },
+    "Low income": {
+        "Country name": "Low income",
+        "Unemployment rate": "5.85062995"
+    },
+    "Liechtenstein": {
+        "Country name": "Liechtenstein",
+        "Unemployment rate": ""
+    },
+    "Sri Lanka": {
+        "Country name": "Sri Lanka",
+        "Unemployment rate": "5.394999981000001"
+    },
+    "Lower middle income": {
+        "Country name": "Lower middle income",
+        "Unemployment rate": "5.887554079"
+    },
+    "Low & middle income": {
+        "Country name": "Low & middle income",
+        "Unemployment rate": "6.290812071"
+    },
+    "Lesotho": {
+        "Country name": "Lesotho",
+        "Unemployment rate": "24.59799957"
+    },
+    "Late-demographic dividend": {
+        "Country name": "Late-demographic dividend",
+        "Unemployment rate": "5.7927534089999995"
+    },
+    "Lithuania": {
+        "Country name": "Lithuania",
+        "Unemployment rate": "7.902999877999999"
+    },
+    "Luxembourg": {
+        "Country name": "Luxembourg",
+        "Unemployment rate": "5.2270002369999995"
+    },
+    "Latvia": {
+        "Country name": "Latvia",
+        "Unemployment rate": "7.599999905"
+    },
+    "Macao SAR, China": {
+        "Country name": "Macao SAR, China",
+        "Unemployment rate": "3.0139999389999996"
+    },
+    "St. Martin (French part)": {
+        "Country name": "St. Martin (French part)",
+        "Unemployment rate": ""
+    },
+    "Morocco": {
+        "Country name": "Morocco",
+        "Unemployment rate": "11.46700001"
+    },
+    "Monaco": {
+        "Country name": "Monaco",
+        "Unemployment rate": ""
+    },
+    "Moldova": {
+        "Country name": "Moldova",
+        "Unemployment rate": "3.961999893"
+    },
+    "Madagascar": {
+        "Country name": "Madagascar",
+        "Unemployment rate": "2.594000101"
+    },
+    "Maldives": {
+        "Country name": "Maldives",
+        "Unemployment rate": "6.078000069"
+    },
+    "Middle East & North Africa": {
+        "Country name": "Middle East & North Africa",
+        "Unemployment rate": "10.53048794"
+    },
+    "Mexico": {
+        "Country name": "Mexico",
+        "Unemployment rate": "4.379000187"
+    },
+    "Marshall Islands": {
+        "Country name": "Marshall Islands",
+        "Unemployment rate": ""
+    },
+    "Middle income": {
+        "Country name": "Middle income",
+        "Unemployment rate": "6.335950197000001"
+    },
+    "North Macedonia": {
+        "Country name": "North Macedonia",
+        "Unemployment rate": "16.20299911"
+    },
+    "Mali": {
+        "Country name": "Mali",
+        "Unemployment rate": "7.71999979"
+    },
+    "Malta": {
+        "Country name": "Malta",
+        "Unemployment rate": "3.499000072"
+    },
+    "Myanmar": {
+        "Country name": "Myanmar",
+        "Unemployment rate": "2.173000097"
+    },
+    "Middle East & North Africa (excluding high income)": {
+        "Country name": "Middle East & North Africa (excluding high income)",
+        "Unemployment rate": "12.18869529"
+    },
+    "Montenegro": {
+        "Country name": "Montenegro",
+        "Unemployment rate": "18.48699951"
+    },
+    "Mongolia": {
+        "Country name": "Mongolia",
+        "Unemployment rate": "7.081999778999999"
+    },
+    "Northern Mariana Islands": {
+        "Country name": "Northern Mariana Islands",
+        "Unemployment rate": ""
+    },
+    "Mozambique": {
+        "Country name": "Mozambique",
+        "Unemployment rate": "3.9820001130000002"
+    },
+    "Mauritania": {
+        "Country name": "Mauritania",
+        "Unemployment rate": "11.463000300000001"
+    },
+    "Mauritius": {
+        "Country name": "Mauritius",
+        "Unemployment rate": "7.414000034"
+    },
+    "Malawi": {
+        "Country name": "Malawi",
+        "Unemployment rate": "7.020999907999999"
+    },
+    "Malaysia": {
+        "Country name": "Malaysia",
+        "Unemployment rate": "4.609000206"
+    },
+    "North America": {
+        "Country name": "North America",
+        "Unemployment rate": "5.695046842999999"
+    },
+    "Namibia": {
+        "Country name": "Namibia",
+        "Unemployment rate": "21.6779995"
+    },
+    "New Caledonia": {
+        "Country name": "New Caledonia",
+        "Unemployment rate": "16.5720005"
+    },
+    "Niger": {
+        "Country name": "Niger",
+        "Unemployment rate": "0.750999987"
+    },
+    "Nigeria": {
+        "Country name": "Nigeria",
+        "Unemployment rate": "9.788000107"
+    },
+    "Nicaragua": {
+        "Country name": "Nicaragua",
+        "Unemployment rate": "5.956999778999999"
+    },
+    "Netherlands": {
+        "Country name": "Netherlands",
+        "Unemployment rate": "4.010000229"
+    },
+    "Norway": {
+        "Country name": "Norway",
+        "Unemployment rate": "4.985000134"
+    },
+    "Nepal": {
+        "Country name": "Nepal",
+        "Unemployment rate": "5.052000046"
+    },
+    "Nauru": {
+        "Country name": "Nauru",
+        "Unemployment rate": ""
+    },
+    "New Zealand": {
+        "Country name": "New Zealand",
+        "Unemployment rate": "4.124000072"
+    },
+    "OECD members": {
+        "Country name": "OECD members",
+        "Unemployment rate": "6.3345547"
+    },
+    "Oman": {
+        "Country name": "Oman",
+        "Unemployment rate": "3.121999979"
+    },
+    "Other small states": {
+        "Country name": "Other small states",
+        "Unemployment rate": "10.98367954"
+    },
+    "Pakistan": {
+        "Country name": "Pakistan",
+        "Unemployment rate": "4.3520002369999995"
+    },
+    "Panama": {
+        "Country name": "Panama",
+        "Unemployment rate": "12.088000300000001"
+    },
+    "Peru": {
+        "Country name": "Peru",
+        "Unemployment rate": "4.833000183"
+    },
+    "Philippines": {
+        "Country name": "Philippines",
+        "Unemployment rate": "2.405999899"
+    },
+    "Palau": {
+        "Country name": "Palau",
+        "Unemployment rate": ""
+    },
+    "Papua New Guinea": {
+        "Country name": "Papua New Guinea",
+        "Unemployment rate": "2.752000093"
+    },
+    "Poland": {
+        "Country name": "Poland",
+        "Unemployment rate": "3.3680000310000002"
+    },
+    "Pre-demographic dividend": {
+        "Country name": "Pre-demographic dividend",
+        "Unemployment rate": "7.0749556579999995"
+    },
+    "Puerto Rico": {
+        "Country name": "Puerto Rico",
+        "Unemployment rate": "8.270999908"
+    },
+    "Korea, Dem. People's Rep.": {
+        "Country name": "Korea, Dem. People's Rep.",
+        "Unemployment rate": "2.5920000080000003"
+    },
+    "Portugal": {
+        "Country name": "Portugal",
+        "Unemployment rate": "6.646999836"
+    },
+    "Paraguay": {
+        "Country name": "Paraguay",
+        "Unemployment rate": "7.2059998510000005"
+    },
+    "West Bank and Gaza": {
+        "Country name": "West Bank and Gaza",
+        "Unemployment rate": "24.90299988"
+    },
+    "Pacific island small states": {
+        "Country name": "Pacific island small states",
+        "Unemployment rate": "3.413623535"
+    },
+    "Post-demographic dividend": {
+        "Country name": "Post-demographic dividend",
+        "Unemployment rate": "5.806600772"
+    },
+    "French Polynesia": {
+        "Country name": "French Polynesia",
+        "Unemployment rate": "14.39099979"
+    },
+    "Qatar": {
+        "Country name": "Qatar",
+        "Unemployment rate": "0.257999986"
+    },
+    "Romania": {
+        "Country name": "Romania",
+        "Unemployment rate": "5.1690001489999995"
+    },
+    "Russia": {
+        "Country name": "Russia",
+        "Unemployment rate": "5.010000229"
+    },
+    "Rwanda": {
+        "Country name": "Rwanda",
+        "Unemployment rate": "1.606999993"
+    },
+    "South Asia": {
+        "Country name": "South Asia",
+        "Unemployment rate": "5.789641626"
+    },
+    "Saudi Arabia": {
+        "Country name": "Saudi Arabia",
+        "Unemployment rate": "7.357999802"
+    },
+    "Sudan": {
+        "Country name": "Sudan",
+        "Unemployment rate": "19.80500031"
+    },
+    "Senegal": {
+        "Country name": "Senegal",
+        "Unemployment rate": "3.72300005"
+    },
+    "Singapore": {
+        "Country name": "Singapore",
+        "Unemployment rate": "3.624000072"
+    },
+    "Solomon Islands": {
+        "Country name": "Solomon Islands",
+        "Unemployment rate": "1.029000044"
+    },
+    "Sierra Leone": {
+        "Country name": "Sierra Leone",
+        "Unemployment rate": "5.333000183"
+    },
+    "El Salvador": {
+        "Country name": "El Salvador",
+        "Unemployment rate": "5.940000057000001"
+    },
+    "San Marino": {
+        "Country name": "San Marino",
+        "Unemployment rate": ""
+    },
+    "Somalia": {
+        "Country name": "Somalia",
+        "Unemployment rate": "19.86499977"
+    },
+    "Serbia": {
+        "Country name": "Serbia",
+        "Unemployment rate": "11.80700016"
+    },
+    "Sub-Saharan Africa (excluding high income)": {
+        "Country name": "Sub-Saharan Africa (excluding high income)",
+        "Unemployment rate": "7.657158645"
+    },
+    "South Sudan": {
+        "Country name": "South Sudan",
+        "Unemployment rate": "13.91499996"
+    },
+    "Sub-Saharan Africa": {
+        "Country name": "Sub-Saharan Africa",
+        "Unemployment rate": "7.657158645"
+    },
+    "Small states": {
+        "Country name": "Small states",
+        "Unemployment rate": "10.37426928"
+    },
+    "Sao Tome and Principe": {
+        "Country name": "Sao Tome and Principe",
+        "Unemployment rate": "15.909000400000002"
+    },
+    "Suriname": {
+        "Country name": "Suriname",
+        "Unemployment rate": "10.06499958"
+    },
+    "Slovakia": {
+        "Country name": "Slovakia",
+        "Unemployment rate": "6.739999771"
+    },
+    "Slovenia": {
+        "Country name": "Slovenia",
+        "Unemployment rate": "4.422999859"
+    },
+    "Sweden": {
+        "Country name": "Sweden",
+        "Unemployment rate": "8.661000252000001"
+    },
+    "Swaziland": {
+        "Country name": "Swaziland",
+        "Unemployment rate": "25.75600052"
+    },
+    "Sint Maarten (Dutch part)": {
+        "Country name": "Sint Maarten (Dutch part)",
+        "Unemployment rate": ""
+    },
+    "Seychelles": {
+        "Country name": "Seychelles",
+        "Unemployment rate": ""
+    },
+    "Syrian Arab Republic": {
+        "Country name": "Syrian Arab Republic",
+        "Unemployment rate": "10.57299995"
+    },
+    "Turks and Caicos Islands": {
+        "Country name": "Turks and Caicos Islands",
+        "Unemployment rate": ""
+    },
+    "Chad": {
+        "Country name": "Chad",
+        "Unemployment rate": "1.881999969"
+    },
+    "East Asia & Pacific (IDA & IBRD countries)": {
+        "Country name": "East Asia & Pacific (IDA & IBRD countries)",
+        "Unemployment rate": "4.3183471760000005"
+    },
+    "Europe & Central Asia (IDA & IBRD countries)": {
+        "Country name": "Europe & Central Asia (IDA & IBRD countries)",
+        "Unemployment rate": "7.269277067999999"
+    },
+    "Togo": {
+        "Country name": "Togo",
+        "Unemployment rate": "4.004000187"
+    },
+    "Thailand": {
+        "Country name": "Thailand",
+        "Unemployment rate": "1.417999983"
+    },
+    "Tajikistan": {
+        "Country name": "Tajikistan",
+        "Unemployment rate": "7.754000187000001"
+    },
+    "Turkmenistan": {
+        "Country name": "Turkmenistan",
+        "Unemployment rate": "5.0809998510000005"
+    },
+    "Latin America & the Caribbean (IDA & IBRD countries)": {
+        "Country name": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "Unemployment rate": "10.09101808"
+    },
+    "Timor-Leste": {
+        "Country name": "Timor-Leste",
+        "Unemployment rate": "5.073999882"
+    },
+    "Middle East & North Africa (IDA & IBRD countries)": {
+        "Country name": "Middle East & North Africa (IDA & IBRD countries)",
+        "Unemployment rate": "12.04669942"
+    },
+    "Tonga": {
+        "Country name": "Tonga",
+        "Unemployment rate": "3.967999935"
+    },
+    "South Asia (IDA & IBRD)": {
+        "Country name": "South Asia (IDA & IBRD)",
+        "Unemployment rate": "5.789641626"
+    },
+    "Sub-Saharan Africa (IDA & IBRD countries)": {
+        "Country name": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "Unemployment rate": "7.657158645"
+    },
+    "Trinidad and Tobago": {
+        "Country name": "Trinidad and Tobago",
+        "Unemployment rate": "4.804999828"
+    },
+    "Tunisia": {
+        "Country name": "Tunisia",
+        "Unemployment rate": "16.823999399999998"
+    },
+    "Turkey": {
+        "Country name": "Turkey",
+        "Unemployment rate": "13.38599968"
+    },
+    "Tuvalu": {
+        "Country name": "Tuvalu",
+        "Unemployment rate": ""
+    },
+    "Tanzania": {
+        "Country name": "Tanzania",
+        "Unemployment rate": "2.648999929"
+    },
+    "Uganda": {
+        "Country name": "Uganda",
+        "Unemployment rate": "2.9360001089999996"
+    },
+    "Ukraine": {
+        "Country name": "Ukraine",
+        "Unemployment rate": "8.87899971"
+    },
+    "Upper middle income": {
+        "Country name": "Upper middle income",
+        "Unemployment rate": "6.771810049"
+    },
+    "Uruguay": {
+        "Country name": "Uruguay",
+        "Unemployment rate": "10.44699955"
+    },
+    "United States": {
+        "Country name": "United States",
+        "Unemployment rate": "5.464000225"
+    },
+    "Uzbekistan": {
+        "Country name": "Uzbekistan",
+        "Unemployment rate": "7.160999775"
+    },
+    "St. Vincent and the Grenadines": {
+        "Country name": "St. Vincent and the Grenadines",
+        "Unemployment rate": "21.61800003"
+    },
+    "Venezuela": {
+        "Country name": "Venezuela",
+        "Unemployment rate": "6.413000107"
+    },
+    "British Virgin Islands": {
+        "Country name": "British Virgin Islands",
+        "Unemployment rate": ""
+    },
+    "Virgin Islands (U.S.)": {
+        "Country name": "Virgin Islands (U.S.)",
+        "Unemployment rate": "13.26500034"
+    },
+    "Vietnam": {
+        "Country name": "Vietnam",
+        "Unemployment rate": "2.165999889"
+    },
+    "Vanuatu": {
+        "Country name": "Vanuatu",
+        "Unemployment rate": "2.180000067"
+    },
+    "World": {
+        "Country name": "World",
+        "Unemployment rate": "6.1771904829999995"
+    },
+    "Samoa": {
+        "Country name": "Samoa",
+        "Unemployment rate": "9.836999893"
+    },
+    "Kosovo": {
+        "Country name": "Kosovo",
+        "Unemployment rate": ""
+    },
+    "Yemen": {
+        "Country name": "Yemen",
+        "Unemployment rate": "13.57400036"
+    },
+    "South Africa": {
+        "Country name": "South Africa",
+        "Unemployment rate": "33.55899811"
+    },
+    "Zambia": {
+        "Country name": "Zambia",
+        "Unemployment rate": "13.02600002"
+    },
+    "Zimbabwe": {
+        "Country name": "Zimbabwe",
+        "Unemployment rate": "5.173999786"
+    }
+}
