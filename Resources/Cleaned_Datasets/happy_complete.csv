@@ -1,4 +1,4 @@
-Country,Happiness score,Logged GDP per capita,Social support,Healthy life expectancy,Freedom to make life choices,Generosity,Perceptions of corruption,IS_HAPPY,Index of institutional trust,Gini coefficient of income,unemp_score,latitude,longitude
+Country,Happiness_score,Logged_GDP_per_capita,Social_support,Healthy_life_expectancy,Freedom_to_make_life_choices,Generosity,Perceptions_of_corruption,IS_HAPPY,Index_of_institutional_trust,Gini_coefficient_of_income,unemp_score,latitude,longitude
 Afghanistan,2.523,7.695,0.463,52.493,0.382,-0.102,0.924,0,0.046,31,13.28299999,33.93911,67.709953
 Albania,5.117,9.52,0.697,68.999,0.785,-0.03,0.901,0,0.15,28.96,11.81900024,41.153332,20.168331
 United Arab Emirates,6.561,11.085,0.844,67.333,0.932,0.074,0.589,1,0.694,38.3,3.35800004,23.424076,53.847818
