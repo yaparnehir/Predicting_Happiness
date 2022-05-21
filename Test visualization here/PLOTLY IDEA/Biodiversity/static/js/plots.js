@@ -6,10 +6,10 @@ function init() {
     // Use the list of sample names to populate the select options
     d3.json("../static/json/happy_complete.json").then((data) => {
         const dataset = data;
-/*         for(i = 0; i<data.length; i++){
-            var CountryNames = Object.keys(data);
-        } */
-        for(i=0; i <= dataset.length; i++){
+        /*         for(i = 0; i<data.length; i++){
+                    var CountryNames = Object.keys(data);
+                } */
+        for (i = 0; i <= dataset.length; i++) {
             CountryNames = dataset.map(row => row.Country);
 
         };
@@ -43,10 +43,10 @@ function optionChanged(newSample) {
 function buildMetadata(sample) {
     d3.json("../static/json/happy_complete.json").then((data) => {
         var metadata = data;
-        
-        
-        
-        
+
+
+
+
         //console.log(metadata);
         // Filter the data for the object with the desired sample number
         var resultArray = metadata.filter(sampleObj => sampleObj.Country == sample);
@@ -73,43 +73,24 @@ function buildMetadata(sample) {
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
     // 2. Use d3.json to load and retrieve the samples.json file 
-    d3.json("samples.json").then((data) => {
+    d3.json("../static/json/happy_complete.json").then((data) => {
         // 3. Create a variable that holds the samples array. 
-        var samplesArray = data.samples;
-        console.log(samplesArray)
+        var reportArray = data;
+        var report = reportArray[0];
+        console.log(report);
 
-        // 4. Create a variable that filters the samples for the object with the desired sample number.
-        var filteredArray = samplesArray.filter(sampleObj => sampleObj.id == sample);
-        console.log(filteredArray)
+        // 4. Create a variable that filters the Country for the object with the desired country name.
+        var filteredArray = reportArray.filter(sampleObj => sampleObj.Country == sample); ///<<<
+        console.log(filteredArray);
 
-        // D.3.1. Create a variable that filters the metadata array for the object with the desired sample number.
-        var metadata = data.metadata;
-        var filtered2 = metadata.filter(sampleObj => sampleObj.id == sample);
+        var x_guage_values = filteredArray.map(row => row['Happiness score']);
+        console.log(x_guage_values);
 
-        // D.3.2. Create a variable that holds the first sample in the metadata array.
-        var result = filtered2[0];
+        guage_values = x_guage_values[0];
 
-        //  5. Create a variable that holds the first sample in the array.
-        var theSample = filteredArray[0]
-        console.log(theSample)
 
-        // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-        var otu_ids = theSample.otu_ids
-        var otu_labels = theSample.otu_labels
-        var sample_values = theSample.sample_values
-        console.log(otu_ids)
-        console.log(otu_labels)
-        console.log(sample_values)
-
-        // D.3.3. Create a variable that holds the washing frequency.
-        var wfreq = parseFloat(result.wfreq)
-        console.log(wfreq)
-
-        // 7. Create the yticks for the bar chart.
-        // Hint: Get the the top 10 otu_ids and map them in descending order  
-        //  so the otu_ids with the most bacteria are last. 
-
-        var yticks = otu_ids.slice(0, 10).map(ids => `OTU ${ids}`).reverse();
+/*         // 7. Create the yticks for the bar chart.
+        var yticks = 9;
         console.log(yticks);
 
         // 8. Create the trace for the bar chart. 
@@ -124,53 +105,24 @@ function buildCharts(sample) {
         // 9. Create the layout for the bar chart. 
         var barLayout = {
             title: "<b>Top 10 Bacteria Cultures Found</b>",
-            paper_bgcolor:'rgba(0,0,0,0)',
-            plot_bgcolor:'rgba(0,0,0,0)',
-            font:{
-                color:'white',
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: {
+                color: 'white',
                 weigt: 'bold'
             }
         };
         // 10. Use Plotly to plot the data with the layout. 
-        Plotly.newPlot("bar", barData, barLayout);
+        Plotly.newPlot("bar", barData, barLayout); */
 
 
-        // DELIVERABLE 2
-        // 1. Create the trace for the bubble chart.
-        var bubbleData = [{
-            x: otu_ids,
-            y: sample_values,
-            text: otu_labels,
-            mode: "markers",
-            marker: {
-                size: sample_values,
-                color: otu_ids,
-                colorscale: "Portland"
-            }
-        }];
 
-        // 2. Create the layout for the bubble chart.
-        var bubbleLayout = {
-            title: "<b>Bacteria Cultures Per Sample</b>",
-            xaxis: { title: "OTU ID" },
-            paper_bgcolor:'rgba(0,0,0,0)',
-            plot_bgcolor:'rgba(0,0,0,0)',
-            font:{
-                color:'white',
-                weigt: 'bold'
-            }
-            
 
-        };
 
-        // 3. Use Plotly to plot the data with the layout.
-        Plotly.newPlot("bubble", bubbleData, bubbleLayout);
-
-        // DELERABLE 3 
         // 4. Create the trace for the gauge chart.
         var gaugeData = [{
             domain: { x: [0, 1], y: [0, 1] },
-            value: wfreq,
+            value: guage_values,
             type: "indicator",
             mode: "gauge+number",
             title: { text: "Belly Button Washing Frequency <br>Scrubs per Week " },
@@ -178,11 +130,11 @@ function buildCharts(sample) {
                 bar: { color: "blue" },
                 axis: { range: [null, 10], tickwidth: 2 },
                 steps: [
-                    { range: [0, 2], color: "red" },
-                    { range: [2, 4], color: "orange" },
-                    { range: [4, 6], color: "yellow" },
-                    { range: [6, 8], color: "lightgreen" },
-                    { range: [8, 10], color: "green" },
+                    { range: [0, 2], color: '#ff8c00'},
+                    { range: [2, 4], color: '#ffad00'},
+                    { range: [4, 6], color: '#92b73a' },
+                    { range: [6, 8], color: '#4aa84e' },
+                    { range: [8, 10], color: '#009a60' },
                 ]
 
             }
@@ -193,10 +145,10 @@ function buildCharts(sample) {
             width: 450,
             height: 445,
             margin: { t: 0, b: 0 },
-            paper_bgcolor:'rgba(0,0,0,0)',
-            plot_bgcolor:'rgba(0,0,0,0)',
-            font:{
-                color:'white',
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: {
+                color: 'white',
                 weigt: 'bold'
             }
         };
