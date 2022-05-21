@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Original theme -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+  <style>
+    .jumbotron {
+      background-image: url("static/images/microbes.jpg");
+      background-size: 100%;
+        text-align: center;   
+        font-weight: bold;
+        color: rgb(238, 233, 229);
+    }
+    
+    div.jumbotron > h1 {
+        text-shadow: 1px 1px 2px black;
+    }
+    p{
+        text-shadow: 1px 1px 2px black;
+    }
+    body {
+        background-image: linear-gradient(to left top, #b45936, #bb4e4f, #b84a6a, #ab4d84, #94569a, #7c65b1, #5774c2, #0081ca, #0095ce, #00a5bc, #00b096, #1eb867);
+        background-size: 100%;
+        text-align: center; 
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p><b>Use the interactive charts below to explore the dataset</b></p>
+      </div>
+    </div>
+    <div class="row">
+<!-- <Create DROP DOWN MENU FOR TEST ID NO.> -->
+      <div class="col-md-3">
+        <div class="well">
+          <h5><b>Country:</b></h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+<!-- <DISPALY DEMOGRAPHIC INFO OF SELECTED ID NO.> -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Country Info</h3>
+          </div><b>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div> </b>
+      </div>
+<!-- <DISPALY Horizontal Bar Chart> -->
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+<!-- <DISPALY Gauge Chart> -->
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+<!-- <DISPALY Bubble Chart> -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/plots.js"></script>
+  <script src="static/json/happy_metadata.js"></script>
+
+</body>
+
+</html>
