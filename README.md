@@ -5,7 +5,7 @@
 ![Google_link](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
 
 ## Topic
-> According to employment and income dataset, what is the correlation between happiness and economical factors ? Which factors has more affect on the topic ?
+> According to **World Happiness Report, 2021** and **World Bank** dataset, what is the correlation between happiness with economical and social factors ? Which features has more affect on the happiness?
 
     
 ### Description of the source data
@@ -178,7 +178,9 @@ The main objective of the machine learning analysis is to **predict if a country
 
 #### Model choice
 
-
+#### Explanation of model choice   
+As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**.
+If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
 
 
 Since the target varible is binary (IS_HAPPY 0-1), obvious choices for models are **Logistic Regression, Random Forest (RF), and Support Vector Machine (SVM)**. Neural network could also work in theory but the small size of the data would not be conducive.
