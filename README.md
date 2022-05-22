@@ -2,7 +2,7 @@
 
 
 ### Presentation
-![Google_link](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
+[Google_link](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
 
 ## Topic
 > According to **World Happiness Report, 2021** and **World Bank** dataset, what is the correlation between happiness with economical and social factors ? Which features has more affect on the happiness?
