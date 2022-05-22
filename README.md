@@ -1,6 +1,12 @@
 # Final_Project
+
+
+### Presentation
+![Google_link](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
+
 ## Topic
-> According to **World Happiness Report, 2021** and **World Bank** dataset, what is the correlation between happiness with economical and social factors ? Which features has more affect on the happiness?
+> According to employment and income dataset, what is the correlation between happiness and economical factors ? Which factors has more affect on the topic ?
+
     
 ### Description of the source data
 > Discussion and research process showed us the best and the most cleaned sets were 2021. After pandemic started globally we could see the analysis, surveys and results more easy since there are more tendency on those topics. Although the most recent one is 2022 datasets, we focused on the 2021. The reason is simply the year has not ended yet and it does not satisfy our expectations and they were incomplete.
@@ -45,9 +51,12 @@ Nusrat
     
 ### Circle
 Amanda
+
+
 - ETL Process
 - Database and server adaptation
 - Presentation
+
     
 ### X Role
 Kartikye
@@ -64,7 +73,11 @@ Danielle
    - Tableau and other applications are being considered.
 - Also researching ideas for including interactivity and refering back to past modules.
 
-## Resources
+## Methods 
+> Unsupervised ML 
+## Technology
+=======
+
 
 ### Softwares
 
@@ -165,6 +178,9 @@ The main objective of the machine learning analysis is to **predict if a country
 
 #### Model choice
 
+
+
+
 Since the target varible is binary (IS_HAPPY 0-1), obvious choices for models are **Logistic Regression, Random Forest (RF), and Support Vector Machine (SVM)**. Neural network could also work in theory but the small size of the data would not be conducive.
 
 Below are the rationale, limitation and benefits for these choices of models:
@@ -232,6 +248,7 @@ Kernel *Poly* performs better than *Linear*.
 As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**. If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
 
 
+
 ## Acknowledgement
 
 - [World Happinessdata](https://worldhappiness.report/ed/2021/)
@@ -239,4 +256,3 @@ As both target and predictors are continuous variables, a natural choice of mode
 - [Unemployment_Data_2021](https://data.worldbank.org/indicator/sl.uem.totl.zs?end=2021&start=2000&view=map)
 
     - International Labour Organization, ILOSTAT database
-
