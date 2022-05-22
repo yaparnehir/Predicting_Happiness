@@ -26,7 +26,7 @@ Select * FROM unemployment;
 -- Merge data on "Country" into new table happy_complete
 
 	-- Drop Table if error occurrs(uncomment code below)
-	-- DROP TABLE happy_complete;
+	 -- DROP TABLE happy_complete;
 
 SELECT hc.*, g."Index of institutional trust", g."Gini coefficient of income",
 unemp."2021", cc."latitude", cc."longitude"
@@ -40,6 +40,9 @@ Select * From happy_complete;
 
 
 -- Create Country Coordinates with Happiness scores
+	-- Drop Table if error occurrs(uncomment code below)
+	  DROP TABLE happy_coord;
+
 SELECT cc.*, hc."Happiness score"
 INTO happy_coord
 from country_coordinates as cc
