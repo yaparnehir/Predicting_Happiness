@@ -1,6 +1,6 @@
 # Final_Project
 ## Topic
-> According to employment and income dataset, what is the correlation between happiness and economical factors ? Which factors has more affect on the topic ?
+> According to **World Happiness Report, 2021** and **World Bank** dataset, what is the correlation between happiness with economical and social factors ? Which features has more affect on the happiness?
     
 ### Description of the source data
 > Discussion and research process showed us the best and the most cleaned sets were 2021. After pandemic started globally we could see the analysis, surveys and results more easy since there are more tendency on those topics. Although the most recent one is 2022 datasets, we focused on the 2021. The reason is simply the year has not ended yet and it does not satisfy our expectations and they were incomplete.
@@ -96,7 +96,7 @@ Danielle
 
 #### Entity Relationship Diagram (ERD)
 
-![ERD]
+![ERD](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Dataset%20diagram.PNG)
     
 ### Machine Learning mockup
     
@@ -151,7 +151,7 @@ The main objective of the machine learning analysis is to **predict if a country
 
 - A **correlation matrix** was calculated and visualized for all previously selected features. This was done to examine their relationship with the target variable as well as other features (**multicolinearity**).
 
-![Corr_matrix]()
+![Corr_matrix](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Corr_matrix.png)
 
 
 - Unsurprisingly, **most features are correlated with other features** (e.g. GDP per capita with Social support or Life expectancy). Since our objective is prediction and not analyzing relative importance of features, we can ignore the multicolinearity.
@@ -169,7 +169,7 @@ Since the target varible is binary (IS_HAPPY 0-1), obvious choices for models ar
 
 Below are the rationale, limitation and benefits for these choices of models:
 
-##### Logistic Regression
+#### Logistic Regression
 
 Logistic Regression is a an obvious, time-tested method for categorical target variable. The model seprates outcome '0' from outcome '1' by calculating a probability.
 
@@ -181,7 +181,7 @@ Logistic Regression is a an obvious, time-tested method for categorical target v
 - Model is explainable. Relative importance of features can be explained.
 - More suitable for structured data without outliers. This could be our case as all data used are official statistics.
 
-##### Random Forest
+#### Random Forest
 
 Random Forest models predict outcome based on a series of conditions on the features. It's a collection of Decision Trees.
 
@@ -192,7 +192,7 @@ Random Forest models predict outcome based on a series of conditions on the feat
 - Risk of overfitting is low.
 - Relative importance of features can be determined.
 
-##### Support Vector Machine (SVM)
+#### Support Vector Machine (SVM)
 
 SVMs separates the target varible levels by calculating a hyperplane.
 
@@ -208,17 +208,17 @@ SVMs separates the target varible levels by calculating a hyperplane.
 
 - Logistic Regression
 
-![Accuracy_Logistic]()
+![Accuracy_Logistic](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_Logistic.png)
 
 - Random Forest
 
-![Accuracy_RF]()
+![Accuracy_RF](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_RF.png)
 
 An *n_estimator* of 5 returns the best accuracy.
 
-- SVM
+- Support Vector Machine (SVM)
 
-![Accuracy_SVM]()
+![Accuracy_SVM](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_SVM.png)
 
 Kernel *Poly* performs better than *Linear*.
 
