@@ -63,11 +63,10 @@ Danielle
 - Look over data to see what visual applications may fit
    - Tableau and other applications are being considered.
 - Also researching ideas for including interactivity and refering back to past modules.
-## Methods 
-> Supervised ML 
-## Technology
 
-### Data Preprocessing
+## Resources
+
+### Softwares
 
 - Python
 - Jupyter Notebook
@@ -78,13 +77,9 @@ Danielle
 - PostgreSQL
 - pgAdmin4
 
-### Machine Learning
-
-SciKitLearn - machine learning library to fit the model.
-
 ### Dashboard
 
-- Tableau - to create a dashboard displaying the results of our analysis.
+- JavaScript - to create a dashboard displaying the results of our analysis.
 - GitHub - ReadMe and files for project
 
 ## Segment I: Sketch It Out!
@@ -101,7 +96,7 @@ SciKitLearn - machine learning library to fit the model.
 
 #### Entity Relationship Diagram (ERD)
 
-#### Database Storage Set up
+![ERD]
     
 ### Machine Learning mockup
     
@@ -130,18 +125,108 @@ SciKitLearn - machine learning library to fit the model.
 - There are other factors which may influence happiness and these will be explored. Some examples are:
     - Income inequality;
     - Unemployment rate;
-    - Crime rate;
-    - Pollution;
-    - Trust (interpersonal, as social capital).
+    - Index of institutional trust.
+
+## Segment II: Build the Pieces
+
+Here is a list of deliverables for Sunday, May 22, 2022:
+
+ - Presentations are drafted in Google Slides.
+ - All code in the main branch is production ready.
+ - A fully integrated database is presented.
+ - Description of the data preprocessing and train-test split.
+ - Re-evaluation of the machine learning models.
+ - Outlining and beginning the work on a dashboard for the final project.
+ 
+### Machine Learning
+
+The main objective of the machine learning analysis is to **predict if a country is happy or not** (Happiness score > 5.5 vs < 5.5) based on selected features and choice of models.
+
+#### Preprocessing
+
+- Columns were renamed to have more meaningful titles and columns containing geographic coordinates were removed as these are not potential predictors for ML.
+- Number of missing values by column was calculated. Since there were only a few records with missing values, those were removed instead of being imputed.
+
+#### Feature selection
+
+- A **correlation matrix** was calculated and visualized for all previously selected features. This was done to examine their relationship with the target variable as well as other features (**multicolinearity**).
+
+![Corr_matrix]()
 
 
-## Data Cleaning
-> Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data <br/>
-![Diagram](/Dataset%20diagram.PNG)
-#### Explanation of model choice   
-As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**. If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
+- Unsurprisingly, **most features are correlated with other features** (e.g. GDP per capita with Social support or Life expectancy). Since our objective is prediction and not analyzing relative importance of features, we can ignore the multicolinearity.
+- **All available features show strong to moderate correlation with the target variable** except Generosity and Institutional Trust. However, correlation does not imply causation and even weak correlation can be statisticially significant.
+- **All features were retained** for the analysis with the intention of excluding the least important ones later on if the models suffer from overfitting.
+
+#### Train-test split
+
+- Since the dataset is relatively small with only 145 rows, the train-test split ratio is a key decision in the analyses. Leaving too few observations in the test dataset may produce unreliable results.
+- A few split ratios were explored (0.25-0.75; 0.4-0.6; 0.5-0.5) and it was observed that a **50-50 split** produces most consistent result. A test ratio any less than 0.5 sometimes produces a better fit for test data than train which can only be described as unreliable.
+
+#### Model choice
+
+Since the target varible is binary (IS_HAPPY 0-1), obvious choices for models are **Logistic Regression, Random Forest (RF), and Support Vector Machine (SVM)**. Neural network could also work in theory but the small size of the data would not be conducive.
+
+Below are the rationale, limitation and benefits for these choices of models:
+
+##### Logistic Regression
+
+Logistic Regression is a an obvious, time-tested method for categorical target variable. The model seprates outcome '0' from outcome '1' by calculating a probability.
+
+**Limitation:**
+- Less accurate if features-target relationship is non-linear.
+- Outliers in data may affect accuracy.
+
+**Benefit:**
+- Model is explainable. Relative importance of features can be explained.
+- More suitable for structured data without outliers. This could be our case as all data used are official statistics.
+
+##### Random Forest
+
+Random Forest models predict outcome based on a series of conditions on the features. It's a collection of Decision Trees.
+
+**Limitation:**
+- Processing time can be long for big and complex data (not our case).
+
+**Benefit:**
+- Risk of overfitting is low.
+- Relative importance of features can be determined.
+
+##### Support Vector Machine (SVM)
+
+SVMs separates the target varible levels by calculating a hyperplane.
+
+**Limitation:**
+- If data is structured without outliers, SVM may be less accurate than Logistic.
+
+**Benefit:**
+- SVM may produce more accurate result if features-target relationship is non-linear.
+- SVM performs well for data with outliers. 
+- SVM is suitable for messy, unstructured data (not our case).
+
+#### Results
+
+- Logistic Regression
+
+![Accuracy_Logistic]()
+
+- Random Forest
+
+![Accuracy_RF]()
+
+An *n_estimator* of 5 returns the best accuracy.
+
+- SVM
+
+![Accuracy_SVM]()
+
+Kernel *Poly* performs better than *Linear*.
+
+- As can be seen, the best prediction was produced by **Random Forest Model**.
+
 
 ## Acknowledgement
+
 - [World Happinessdata](https://worldhappiness.report/ed/2021/)
     - Citation:Helliwell, John F., Richard Layard, Jeffrey Sachs and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
 - [Unemployment_Data_2021](https://data.worldbank.org/indicator/sl.uem.totl.zs?end=2021&start=2000&view=map)
