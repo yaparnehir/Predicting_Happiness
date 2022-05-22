@@ -125,10 +125,10 @@ function buildCharts(sample) {
             value: guage_values,
             type: "indicator",
             mode: "gauge+number",
-            title: { text: "<b><em>Happiness Score by Country</em></b>" },
+            title: { text: "Belly Button Washing Frequency <br>Scrubs per Week " },
             gauge: {
                 bar: { color: "blue" },
-                axis: { range: [null, 10], tickwidth: 6 },
+                axis: { range: [null, 10], tickwidth: 2 },
                 steps: [
                     { range: [0, 2], color: '#ff8c00'},
                     { range: [2, 4], color: '#ffad00'},
