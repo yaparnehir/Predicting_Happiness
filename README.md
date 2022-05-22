@@ -45,7 +45,9 @@ Nusrat
     
 ### Circle
 Amanda
-![Diagram](/Dataset%20diagram.PNG)
+- ETL Process
+- Database and server adaptation
+- Presentation
     
 ### X Role
 Kartikye
@@ -62,7 +64,7 @@ Danielle
    - Tableau and other applications are being considered.
 - Also researching ideas for including interactivity and refering back to past modules.
 ## Methods 
-> Unsupervised ML 
+> Supervised ML 
 ## Technology
 
 ### Data Preprocessing
@@ -95,7 +97,7 @@ SciKitLearn - machine learning library to fit the model.
     - Creating database
     - Mockup of machine learning
  
-### Exploratory Data Analysis (ERD)
+### Exploratory Data Analysis (EDA)
 
 #### Entity Relationship Diagram (ERD)
 
@@ -134,8 +136,8 @@ SciKitLearn - machine learning library to fit the model.
 
 
 ## Data Cleaning
-> Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data 
-
+> Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data <br/>
+![Diagram](/Dataset%20diagram.PNG)
 #### Explanation of model choice   
 As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**. If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
 
