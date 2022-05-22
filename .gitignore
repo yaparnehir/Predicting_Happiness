@@ -5,6 +5,7 @@ __pycache__/
 
 # configuration(s)
 config.py
+config.js
 
 # C extensions
 *.so

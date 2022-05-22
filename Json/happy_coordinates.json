@@ -1,0 +1,1466 @@
+{
+    "Afghanistan": {
+        "latitude": "33.93911",
+        "longitude": "67.709953",
+        "Country": "Afghanistan",
+        "Happiness score": "2.523"
+    },
+    "Albania": {
+        "latitude": "41.153332",
+        "longitude": "20.168331",
+        "Country": "Albania",
+        "Happiness score": "5.117"
+    },
+    "Algeria": {
+        "latitude": "28.033886",
+        "longitude": "1.6596259999999998",
+        "Country": "Algeria",
+        "Happiness score": "4.887"
+    },
+    "American Samoa": {
+        "latitude": "-14.270972",
+        "longitude": "-170.132217",
+        "Country": "American Samoa",
+        "Happiness score": ""
+    },
+    "Andorra": {
+        "latitude": "42.546245",
+        "longitude": "1.6015540000000001",
+        "Country": "Andorra",
+        "Happiness score": ""
+    },
+    "Angola": {
+        "latitude": "-11.202691999999999",
+        "longitude": "17.873887",
+        "Country": "Angola",
+        "Happiness score": ""
+    },
+    "Anguilla": {
+        "latitude": "18.220554",
+        "longitude": "-63.068615",
+        "Country": "Anguilla",
+        "Happiness score": ""
+    },
+    "Antarctica": {
+        "latitude": "-75.250973",
+        "longitude": "-0.071389",
+        "Country": "Antarctica",
+        "Happiness score": ""
+    },
+    "Antigua and Barbuda": {
+        "latitude": "17.060816",
+        "longitude": "-61.79642800000001",
+        "Country": "Antigua and Barbuda",
+        "Happiness score": ""
+    },
+    "Argentina": {
+        "latitude": "-38.416097",
+        "longitude": "-63.616671999999994",
+        "Country": "Argentina",
+        "Happiness score": "5.928999999999999"
+    },
+    "Armenia": {
+        "latitude": "40.069099",
+        "longitude": "45.038189",
+        "Country": "Armenia",
+        "Happiness score": "5.2829999999999995"
+    },
+    "Aruba": {
+        "latitude": "12.52111",
+        "longitude": "-69.968338",
+        "Country": "Aruba",
+        "Happiness score": ""
+    },
+    "Australia": {
+        "latitude": "-25.274398",
+        "longitude": "133.775136",
+        "Country": "Australia",
+        "Happiness score": "7.183"
+    },
+    "Austria": {
+        "latitude": "47.516231",
+        "longitude": "14.550072",
+        "Country": "Austria",
+        "Happiness score": "7.268"
+    },
+    "Azerbaijan": {
+        "latitude": "40.143105",
+        "longitude": "47.57692700000001",
+        "Country": "Azerbaijan",
+        "Happiness score": "5.171"
+    },
+    "Bahamas": {
+        "latitude": "25.03428",
+        "longitude": "-77.39628",
+        "Country": "Bahamas",
+        "Happiness score": ""
+    },
+    "Bahrain": {
+        "latitude": "25.93041400000001",
+        "longitude": "50.637772",
+        "Country": "Bahrain",
+        "Happiness score": "6.647"
+    },
+    "Bangladesh": {
+        "latitude": "23.684994",
+        "longitude": "90.35633100000001",
+        "Country": "Bangladesh",
+        "Happiness score": "5.025"
+    },
+    "Barbados": {
+        "latitude": "13.193887",
+        "longitude": "-59.543198",
+        "Country": "Barbados",
+        "Happiness score": ""
+    },
+    "Belarus": {
+        "latitude": "53.709807",
+        "longitude": "27.953389",
+        "Country": "Belarus",
+        "Happiness score": "5.534"
+    },
+    "Belgium": {
+        "latitude": "50.503887",
+        "longitude": "4.469936",
+        "Country": "Belgium",
+        "Happiness score": "6.834"
+    },
+    "Belize": {
+        "latitude": "17.189877",
+        "longitude": "-88.49765",
+        "Country": "Belize",
+        "Happiness score": ""
+    },
+    "Benin": {
+        "latitude": "9.30769",
+        "longitude": "2.315834",
+        "Country": "Benin",
+        "Happiness score": "5.045"
+    },
+    "Bermuda": {
+        "latitude": "32.321384",
+        "longitude": "-64.75737",
+        "Country": "Bermuda",
+        "Happiness score": ""
+    },
+    "Bhutan": {
+        "latitude": "27.514162",
+        "longitude": "90.433601",
+        "Country": "Bhutan",
+        "Happiness score": ""
+    },
+    "Bolivia": {
+        "latitude": "-16.290154",
+        "longitude": "-63.588653",
+        "Country": "Bolivia",
+        "Happiness score": "5.716"
+    },
+    "Bosnia and Herzegovina": {
+        "latitude": "43.915886",
+        "longitude": "17.679076000000006",
+        "Country": "Bosnia and Herzegovina",
+        "Happiness score": "5.813"
+    },
+    "Botswana": {
+        "latitude": "-22.328474",
+        "longitude": "24.684866",
+        "Country": "Botswana",
+        "Happiness score": "3.467"
+    },
+    "Bouvet Island": {
+        "latitude": "-54.423199",
+        "longitude": "3.4131940000000003",
+        "Country": "Bouvet Island",
+        "Happiness score": ""
+    },
+    "Brazil": {
+        "latitude": "-14.235004",
+        "longitude": "-51.92528",
+        "Country": "Brazil",
+        "Happiness score": "6.33"
+    },
+    "British Indian Ocean Territory": {
+        "latitude": "-6.343194",
+        "longitude": "71.87651899999999",
+        "Country": "British Indian Ocean Territory",
+        "Happiness score": ""
+    },
+    "British Virgin Islands": {
+        "latitude": "18.420695000000002",
+        "longitude": "-64.63996800000001",
+        "Country": "British Virgin Islands",
+        "Happiness score": ""
+    },
+    "Brunei": {
+        "latitude": "4.535277",
+        "longitude": "114.72766899999999",
+        "Country": "Brunei",
+        "Happiness score": ""
+    },
+    "Bulgaria": {
+        "latitude": "42.733883",
+        "longitude": "25.48583",
+        "Country": "Bulgaria",
+        "Happiness score": "5.266"
+    },
+    "Burkina Faso": {
+        "latitude": "12.238333",
+        "longitude": "-1.561593",
+        "Country": "Burkina Faso",
+        "Happiness score": "4.834"
+    },
+    "Burundi": {
+        "latitude": "-3.3730559999999996",
+        "longitude": "29.918885999999997",
+        "Country": "Burundi",
+        "Happiness score": "3.775"
+    },
+    "Cambodia": {
+        "latitude": "12.565679",
+        "longitude": "104.990963",
+        "Country": "Cambodia",
+        "Happiness score": "4.83"
+    },
+    "Cameroon": {
+        "latitude": "7.369722",
+        "longitude": "12.354722",
+        "Country": "Cameroon",
+        "Happiness score": "5.142"
+    },
+    "Canada": {
+        "latitude": "56.130366",
+        "longitude": "-106.34677099999999",
+        "Country": "Canada",
+        "Happiness score": "7.103"
+    },
+    "Cape Verde": {
+        "latitude": "16.002082",
+        "longitude": "-24.013197",
+        "Country": "Cape Verde",
+        "Happiness score": ""
+    },
+    "Cayman Islands": {
+        "latitude": "19.513469",
+        "longitude": "-80.566956",
+        "Country": "Cayman Islands",
+        "Happiness score": ""
+    },
+    "Central African Republic": {
+        "latitude": "6.611111",
+        "longitude": "20.939444",
+        "Country": "Central African Republic",
+        "Happiness score": ""
+    },
+    "Chad": {
+        "latitude": "15.454166",
+        "longitude": "18.732207",
+        "Country": "Chad",
+        "Happiness score": "4.355"
+    },
+    "Chile": {
+        "latitude": "-35.675146999999996",
+        "longitude": "-71.542969",
+        "Country": "Chile",
+        "Happiness score": "6.172000000000001"
+    },
+    "China": {
+        "latitude": "35.86166",
+        "longitude": "104.195397",
+        "Country": "China",
+        "Happiness score": "5.3389999999999995"
+    },
+    "Christmas Island": {
+        "latitude": "-10.447525",
+        "longitude": "105.690449",
+        "Country": "Christmas Island",
+        "Happiness score": ""
+    },
+    "Cocos [Keeling] Islands": {
+        "latitude": "-12.164164999999999",
+        "longitude": "96.870956",
+        "Country": "Cocos [Keeling] Islands",
+        "Happiness score": ""
+    },
+    "Colombia": {
+        "latitude": "4.570868",
+        "longitude": "-74.297333",
+        "Country": "Colombia",
+        "Happiness score": "6.0120000000000005"
+    },
+    "Comoros": {
+        "latitude": "-11.875001",
+        "longitude": "43.872219",
+        "Country": "Comoros",
+        "Happiness score": "4.289"
+    },
+    "Congo [DRC]": {
+        "latitude": "-4.0383330000000015",
+        "longitude": "21.758664000000003",
+        "Country": "Congo [DRC]",
+        "Happiness score": ""
+    },
+    "Congo [Republic]": {
+        "latitude": "-0.228021",
+        "longitude": "15.827658999999999",
+        "Country": "Congo [Republic]",
+        "Happiness score": ""
+    },
+    "Cook Islands": {
+        "latitude": "-21.236735999999997",
+        "longitude": "-159.777671",
+        "Country": "Cook Islands",
+        "Happiness score": ""
+    },
+    "Costa Rica": {
+        "latitude": "9.748917",
+        "longitude": "-83.753428",
+        "Country": "Costa Rica",
+        "Happiness score": "7.069"
+    },
+    "Croatia": {
+        "latitude": "45.1",
+        "longitude": "15.2",
+        "Country": "Croatia",
+        "Happiness score": "5.882000000000001"
+    },
+    "Cuba": {
+        "latitude": "21.521757",
+        "longitude": "-77.78116700000002",
+        "Country": "Cuba",
+        "Happiness score": ""
+    },
+    "Cyprus": {
+        "latitude": "35.126413",
+        "longitude": "33.429859",
+        "Country": "Cyprus",
+        "Happiness score": "6.223"
+    },
+    "Czech Republic": {
+        "latitude": "49.817492",
+        "longitude": "15.472961999999999",
+        "Country": "Czech Republic",
+        "Happiness score": "6.965"
+    },
+    "C\u00f4te d'Ivoire": {
+        "latitude": "7.539989",
+        "longitude": "-5.54708",
+        "Country": "C\u00f4te d'Ivoire",
+        "Happiness score": ""
+    },
+    "Denmark": {
+        "latitude": "56.26392",
+        "longitude": "9.501785",
+        "Country": "Denmark",
+        "Happiness score": "7.62"
+    },
+    "Djibouti": {
+        "latitude": "11.825138",
+        "longitude": "42.590275",
+        "Country": "Djibouti",
+        "Happiness score": ""
+    },
+    "Dominica": {
+        "latitude": "15.414999",
+        "longitude": "-61.370976",
+        "Country": "Dominica",
+        "Happiness score": ""
+    },
+    "Dominican Republic": {
+        "latitude": "18.735692999999998",
+        "longitude": "-70.162651",
+        "Country": "Dominican Republic",
+        "Happiness score": "5.545"
+    },
+    "Ecuador": {
+        "latitude": "-1.8312389999999998",
+        "longitude": "-78.183406",
+        "Country": "Ecuador",
+        "Happiness score": "5.763999999999999"
+    },
+    "Egypt": {
+        "latitude": "26.820553000000004",
+        "longitude": "30.802497999999996",
+        "Country": "Egypt",
+        "Happiness score": "4.283"
+    },
+    "El Salvador": {
+        "latitude": "13.794185",
+        "longitude": "-88.89653",
+        "Country": "El Salvador",
+        "Happiness score": "6.061"
+    },
+    "Equatorial Guinea": {
+        "latitude": "1.6508009999999995",
+        "longitude": "10.267895",
+        "Country": "Equatorial Guinea",
+        "Happiness score": ""
+    },
+    "Eritrea": {
+        "latitude": "15.179383999999999",
+        "longitude": "39.78233400000001",
+        "Country": "Eritrea",
+        "Happiness score": ""
+    },
+    "Estonia": {
+        "latitude": "58.595271999999994",
+        "longitude": "25.013607",
+        "Country": "Estonia",
+        "Happiness score": "6.189"
+    },
+    "Ethiopia": {
+        "latitude": "9.145",
+        "longitude": "40.489672999999996",
+        "Country": "Ethiopia",
+        "Happiness score": "4.275"
+    },
+    "Falkland Islands [Islas Malvinas]": {
+        "latitude": "-51.796253",
+        "longitude": "-59.523613",
+        "Country": "Falkland Islands [Islas Malvinas]",
+        "Happiness score": ""
+    },
+    "Faroe Islands": {
+        "latitude": "61.892635",
+        "longitude": "-6.9118059999999995",
+        "Country": "Faroe Islands",
+        "Happiness score": ""
+    },
+    "Fiji": {
+        "latitude": "-16.578193",
+        "longitude": "179.414413",
+        "Country": "Fiji",
+        "Happiness score": ""
+    },
+    "Finland": {
+        "latitude": "61.92411",
+        "longitude": "25.748151",
+        "Country": "Finland",
+        "Happiness score": "7.8420000000000005"
+    },
+    "France": {
+        "latitude": "46.227638",
+        "longitude": "2.213749",
+        "Country": "France",
+        "Happiness score": "6.69"
+    },
+    "French Guiana": {
+        "latitude": "3.9338889999999997",
+        "longitude": "-53.125781999999994",
+        "Country": "French Guiana",
+        "Happiness score": ""
+    },
+    "French Polynesia": {
+        "latitude": "-17.679742",
+        "longitude": "-149.40684299999995",
+        "Country": "French Polynesia",
+        "Happiness score": ""
+    },
+    "French Southern Territories": {
+        "latitude": "-49.280366",
+        "longitude": "69.348557",
+        "Country": "French Southern Territories",
+        "Happiness score": ""
+    },
+    "Gabon": {
+        "latitude": "-0.803689",
+        "longitude": "11.609444",
+        "Country": "Gabon",
+        "Happiness score": "4.852"
+    },
+    "Gambia": {
+        "latitude": "13.443182",
+        "longitude": "-15.310139000000001",
+        "Country": "Gambia",
+        "Happiness score": "5.051"
+    },
+    "Gaza Strip": {
+        "latitude": "31.354676",
+        "longitude": "34.308825",
+        "Country": "Gaza Strip",
+        "Happiness score": ""
+    },
+    "Georgia": {
+        "latitude": "42.315407",
+        "longitude": "43.356891999999995",
+        "Country": "Georgia",
+        "Happiness score": "4.891"
+    },
+    "Germany": {
+        "latitude": "51.165690999999995",
+        "longitude": "10.451526",
+        "Country": "Germany",
+        "Happiness score": "7.155"
+    },
+    "Ghana": {
+        "latitude": "7.9465270000000015",
+        "longitude": "-1.0231940000000002",
+        "Country": "Ghana",
+        "Happiness score": "5.088"
+    },
+    "Gibraltar": {
+        "latitude": "36.137741",
+        "longitude": "-5.345374",
+        "Country": "Gibraltar",
+        "Happiness score": ""
+    },
+    "Greece": {
+        "latitude": "39.074208",
+        "longitude": "21.824312",
+        "Country": "Greece",
+        "Happiness score": "5.723"
+    },
+    "Greenland": {
+        "latitude": "71.706936",
+        "longitude": "-42.604303",
+        "Country": "Greenland",
+        "Happiness score": ""
+    },
+    "Grenada": {
+        "latitude": "12.262775999999999",
+        "longitude": "-61.604170999999994",
+        "Country": "Grenada",
+        "Happiness score": ""
+    },
+    "Guadeloupe": {
+        "latitude": "16.995971",
+        "longitude": "-62.067641",
+        "Country": "Guadeloupe",
+        "Happiness score": ""
+    },
+    "Guam": {
+        "latitude": "13.444304",
+        "longitude": "144.793731",
+        "Country": "Guam",
+        "Happiness score": ""
+    },
+    "Guatemala": {
+        "latitude": "15.783470999999999",
+        "longitude": "-90.23075899999999",
+        "Country": "Guatemala",
+        "Happiness score": "6.435"
+    },
+    "Guernsey": {
+        "latitude": "49.465691",
+        "longitude": "-2.5852779999999997",
+        "Country": "Guernsey",
+        "Happiness score": ""
+    },
+    "Guinea": {
+        "latitude": "9.945587",
+        "longitude": "-9.696645",
+        "Country": "Guinea",
+        "Happiness score": "4.984"
+    },
+    "Guinea-Bissau": {
+        "latitude": "11.803749",
+        "longitude": "-15.180413",
+        "Country": "Guinea-Bissau",
+        "Happiness score": ""
+    },
+    "Guyana": {
+        "latitude": "4.860416000000002",
+        "longitude": "-58.93018000000001",
+        "Country": "Guyana",
+        "Happiness score": ""
+    },
+    "Haiti": {
+        "latitude": "18.971187",
+        "longitude": "-72.28521500000002",
+        "Country": "Haiti",
+        "Happiness score": "3.615"
+    },
+    "Heard Island and McDonald Islands": {
+        "latitude": "-53.08181",
+        "longitude": "73.50415799999998",
+        "Country": "Heard Island and McDonald Islands",
+        "Happiness score": ""
+    },
+    "Honduras": {
+        "latitude": "15.199998999999998",
+        "longitude": "-86.241905",
+        "Country": "Honduras",
+        "Happiness score": "5.919"
+    },
+    "Hong Kong": {
+        "latitude": "22.396428",
+        "longitude": "114.10949699999999",
+        "Country": "Hong Kong",
+        "Happiness score": ""
+    },
+    "Hungary": {
+        "latitude": "47.162494",
+        "longitude": "19.503304",
+        "Country": "Hungary",
+        "Happiness score": "5.992000000000001"
+    },
+    "Iceland": {
+        "latitude": "64.96305100000001",
+        "longitude": "-19.020835",
+        "Country": "Iceland",
+        "Happiness score": "7.553999999999999"
+    },
+    "India": {
+        "latitude": "20.593684",
+        "longitude": "78.96288",
+        "Country": "India",
+        "Happiness score": "3.819"
+    },
+    "Indonesia": {
+        "latitude": "-0.789275",
+        "longitude": "113.921327",
+        "Country": "Indonesia",
+        "Happiness score": "5.345"
+    },
+    "Iran": {
+        "latitude": "32.427908",
+        "longitude": "53.68804599999999",
+        "Country": "Iran",
+        "Happiness score": "4.721"
+    },
+    "Iraq": {
+        "latitude": "33.223191",
+        "longitude": "43.679291",
+        "Country": "Iraq",
+        "Happiness score": "4.854"
+    },
+    "Ireland": {
+        "latitude": "53.41291",
+        "longitude": "-8.243889999999999",
+        "Country": "Ireland",
+        "Happiness score": "7.085"
+    },
+    "Isle of Man": {
+        "latitude": "54.236107",
+        "longitude": "-4.548056",
+        "Country": "Isle of Man",
+        "Happiness score": ""
+    },
+    "Israel": {
+        "latitude": "31.046051000000002",
+        "longitude": "34.851612",
+        "Country": "Israel",
+        "Happiness score": "7.157"
+    },
+    "Italy": {
+        "latitude": "41.87194",
+        "longitude": "12.56738",
+        "Country": "Italy",
+        "Happiness score": "6.483"
+    },
+    "Jamaica": {
+        "latitude": "18.109581",
+        "longitude": "-77.297508",
+        "Country": "Jamaica",
+        "Happiness score": "6.309"
+    },
+    "Japan": {
+        "latitude": "36.204824",
+        "longitude": "138.252924",
+        "Country": "Japan",
+        "Happiness score": "5.94"
+    },
+    "Jersey": {
+        "latitude": "49.214439",
+        "longitude": "-2.13125",
+        "Country": "Jersey",
+        "Happiness score": ""
+    },
+    "Jordan": {
+        "latitude": "30.585164000000002",
+        "longitude": "36.238414",
+        "Country": "Jordan",
+        "Happiness score": "4.395"
+    },
+    "Kazakhstan": {
+        "latitude": "48.019573",
+        "longitude": "66.923684",
+        "Country": "Kazakhstan",
+        "Happiness score": "6.152"
+    },
+    "Kenya": {
+        "latitude": "-0.023559",
+        "longitude": "37.906193",
+        "Country": "Kenya",
+        "Happiness score": "4.607"
+    },
+    "Kiribati": {
+        "latitude": "-3.3704169999999998",
+        "longitude": "-168.734039",
+        "Country": "Kiribati",
+        "Happiness score": ""
+    },
+    "Kosovo": {
+        "latitude": "42.602636",
+        "longitude": "20.902977",
+        "Country": "Kosovo",
+        "Happiness score": "6.372000000000001"
+    },
+    "Kuwait": {
+        "latitude": "29.311659999999996",
+        "longitude": "47.481766",
+        "Country": "Kuwait",
+        "Happiness score": "6.106"
+    },
+    "Kyrgyzstan": {
+        "latitude": "41.20438",
+        "longitude": "74.766098",
+        "Country": "Kyrgyzstan",
+        "Happiness score": "5.744"
+    },
+    "Laos": {
+        "latitude": "19.856270000000002",
+        "longitude": "102.495496",
+        "Country": "Laos",
+        "Happiness score": "5.03"
+    },
+    "Latvia": {
+        "latitude": "56.879635",
+        "longitude": "24.603189",
+        "Country": "Latvia",
+        "Happiness score": "6.032"
+    },
+    "Lebanon": {
+        "latitude": "33.854721000000005",
+        "longitude": "35.862285",
+        "Country": "Lebanon",
+        "Happiness score": "4.584"
+    },
+    "Lesotho": {
+        "latitude": "-29.609988",
+        "longitude": "28.233608",
+        "Country": "Lesotho",
+        "Happiness score": "3.512"
+    },
+    "Liberia": {
+        "latitude": "6.4280550000000005",
+        "longitude": "-9.429499",
+        "Country": "Liberia",
+        "Happiness score": "4.625"
+    },
+    "Libya": {
+        "latitude": "26.3351",
+        "longitude": "17.228331",
+        "Country": "Libya",
+        "Happiness score": "5.41"
+    },
+    "Liechtenstein": {
+        "latitude": "47.166000000000004",
+        "longitude": "9.555373",
+        "Country": "Liechtenstein",
+        "Happiness score": ""
+    },
+    "Lithuania": {
+        "latitude": "55.169438",
+        "longitude": "23.881275",
+        "Country": "Lithuania",
+        "Happiness score": "6.255"
+    },
+    "Luxembourg": {
+        "latitude": "49.815273",
+        "longitude": "6.129583",
+        "Country": "Luxembourg",
+        "Happiness score": "7.324"
+    },
+    "Macau": {
+        "latitude": "22.198745000000002",
+        "longitude": "113.543873",
+        "Country": "Macau",
+        "Happiness score": ""
+    },
+    "Macedonia [FYROM]": {
+        "latitude": "41.608635",
+        "longitude": "21.745275",
+        "Country": "Macedonia [FYROM]",
+        "Happiness score": ""
+    },
+    "Madagascar": {
+        "latitude": "-18.766947000000002",
+        "longitude": "46.869107",
+        "Country": "Madagascar",
+        "Happiness score": "4.208"
+    },
+    "Malawi": {
+        "latitude": "-13.254307999999998",
+        "longitude": "34.301525",
+        "Country": "Malawi",
+        "Happiness score": "3.6"
+    },
+    "Malaysia": {
+        "latitude": "4.210483999999999",
+        "longitude": "101.97576600000001",
+        "Country": "Malaysia",
+        "Happiness score": "5.3839999999999995"
+    },
+    "Maldives": {
+        "latitude": "3.202778",
+        "longitude": "73.22068",
+        "Country": "Maldives",
+        "Happiness score": "5.1979999999999995"
+    },
+    "Mali": {
+        "latitude": "17.570692",
+        "longitude": "-3.996166000000001",
+        "Country": "Mali",
+        "Happiness score": "4.723"
+    },
+    "Malta": {
+        "latitude": "35.937496",
+        "longitude": "14.375416",
+        "Country": "Malta",
+        "Happiness score": "6.602"
+    },
+    "Marshall Islands": {
+        "latitude": "7.131474000000001",
+        "longitude": "171.184478",
+        "Country": "Marshall Islands",
+        "Happiness score": ""
+    },
+    "Martinique": {
+        "latitude": "14.641528",
+        "longitude": "-61.024174",
+        "Country": "Martinique",
+        "Happiness score": ""
+    },
+    "Mauritania": {
+        "latitude": "21.00789",
+        "longitude": "-10.940835",
+        "Country": "Mauritania",
+        "Happiness score": "4.227"
+    },
+    "Mauritius": {
+        "latitude": "-20.348404000000002",
+        "longitude": "57.552152",
+        "Country": "Mauritius",
+        "Happiness score": "6.0489999999999995"
+    },
+    "Mayotte": {
+        "latitude": "-12.8275",
+        "longitude": "45.166244",
+        "Country": "Mayotte",
+        "Happiness score": ""
+    },
+    "Mexico": {
+        "latitude": "23.634501",
+        "longitude": "-102.552784",
+        "Country": "Mexico",
+        "Happiness score": "6.317"
+    },
+    "Micronesia": {
+        "latitude": "7.425553999999999",
+        "longitude": "150.550812",
+        "Country": "Micronesia",
+        "Happiness score": ""
+    },
+    "Moldova": {
+        "latitude": "47.411631",
+        "longitude": "28.369884999999996",
+        "Country": "Moldova",
+        "Happiness score": "5.766"
+    },
+    "Monaco": {
+        "latitude": "43.750298",
+        "longitude": "7.412841",
+        "Country": "Monaco",
+        "Happiness score": ""
+    },
+    "Mongolia": {
+        "latitude": "46.862496",
+        "longitude": "103.84665600000001",
+        "Country": "Mongolia",
+        "Happiness score": "5.6770000000000005"
+    },
+    "Montenegro": {
+        "latitude": "42.708678000000006",
+        "longitude": "19.37439",
+        "Country": "Montenegro",
+        "Happiness score": "5.581"
+    },
+    "Montserrat": {
+        "latitude": "16.742498",
+        "longitude": "-62.187366000000004",
+        "Country": "Montserrat",
+        "Happiness score": ""
+    },
+    "Morocco": {
+        "latitude": "31.791702",
+        "longitude": "-7.09262",
+        "Country": "Morocco",
+        "Happiness score": "4.918"
+    },
+    "Mozambique": {
+        "latitude": "-18.665695",
+        "longitude": "35.529562",
+        "Country": "Mozambique",
+        "Happiness score": "4.794"
+    },
+    "Myanmar [Burma]": {
+        "latitude": "21.913965",
+        "longitude": "95.956223",
+        "Country": "Myanmar [Burma]",
+        "Happiness score": ""
+    },
+    "Namibia": {
+        "latitude": "-22.957639999999998",
+        "longitude": "18.49041",
+        "Country": "Namibia",
+        "Happiness score": "4.574"
+    },
+    "Nauru": {
+        "latitude": "-0.522778",
+        "longitude": "166.931503",
+        "Country": "Nauru",
+        "Happiness score": ""
+    },
+    "Nepal": {
+        "latitude": "28.394857000000002",
+        "longitude": "84.12400799999998",
+        "Country": "Nepal",
+        "Happiness score": "5.269"
+    },
+    "Netherlands": {
+        "latitude": "52.132633",
+        "longitude": "5.291266",
+        "Country": "Netherlands",
+        "Happiness score": "7.4639999999999995"
+    },
+    "Netherlands Antilles": {
+        "latitude": "12.226078999999999",
+        "longitude": "-69.060087",
+        "Country": "Netherlands Antilles",
+        "Happiness score": ""
+    },
+    "New Caledonia": {
+        "latitude": "-20.904304999999997",
+        "longitude": "165.618042",
+        "Country": "New Caledonia",
+        "Happiness score": ""
+    },
+    "New Zealand": {
+        "latitude": "-40.900557",
+        "longitude": "174.88597099999996",
+        "Country": "New Zealand",
+        "Happiness score": "7.277"
+    },
+    "Nicaragua": {
+        "latitude": "12.865416",
+        "longitude": "-85.207229",
+        "Country": "Nicaragua",
+        "Happiness score": "5.972"
+    },
+    "Niger": {
+        "latitude": "17.607789",
+        "longitude": "8.081666",
+        "Country": "Niger",
+        "Happiness score": "5.074"
+    },
+    "Nigeria": {
+        "latitude": "9.081999",
+        "longitude": "8.675277000000001",
+        "Country": "Nigeria",
+        "Happiness score": "4.7589999999999995"
+    },
+    "Niue": {
+        "latitude": "-19.054445",
+        "longitude": "-169.867233",
+        "Country": "Niue",
+        "Happiness score": ""
+    },
+    "Norfolk Island": {
+        "latitude": "-29.040834999999998",
+        "longitude": "167.954712",
+        "Country": "Norfolk Island",
+        "Happiness score": ""
+    },
+    "North Korea": {
+        "latitude": "40.339852",
+        "longitude": "127.510093",
+        "Country": "North Korea",
+        "Happiness score": ""
+    },
+    "Northern Mariana Islands": {
+        "latitude": "17.33083",
+        "longitude": "145.38468999999995",
+        "Country": "Northern Mariana Islands",
+        "Happiness score": ""
+    },
+    "Norway": {
+        "latitude": "60.472024",
+        "longitude": "8.468946",
+        "Country": "Norway",
+        "Happiness score": "7.392"
+    },
+    "Oman": {
+        "latitude": "21.512583",
+        "longitude": "55.92325500000001",
+        "Country": "Oman",
+        "Happiness score": ""
+    },
+    "Pakistan": {
+        "latitude": "30.375321000000003",
+        "longitude": "69.345116",
+        "Country": "Pakistan",
+        "Happiness score": "4.934"
+    },
+    "Palau": {
+        "latitude": "7.51498",
+        "longitude": "134.58252",
+        "Country": "Palau",
+        "Happiness score": ""
+    },
+    "Palestinian Territories": {
+        "latitude": "31.952162",
+        "longitude": "35.233154",
+        "Country": "Palestinian Territories",
+        "Happiness score": ""
+    },
+    "Panama": {
+        "latitude": "8.537981",
+        "longitude": "-80.782127",
+        "Country": "Panama",
+        "Happiness score": "6.18"
+    },
+    "Papua New Guinea": {
+        "latitude": "-6.314993",
+        "longitude": "143.95555",
+        "Country": "Papua New Guinea",
+        "Happiness score": ""
+    },
+    "Paraguay": {
+        "latitude": "-23.442503",
+        "longitude": "-58.44383199999999",
+        "Country": "Paraguay",
+        "Happiness score": "5.653"
+    },
+    "Peru": {
+        "latitude": "-9.189967",
+        "longitude": "-75.015152",
+        "Country": "Peru",
+        "Happiness score": "5.84"
+    },
+    "Philippines": {
+        "latitude": "12.879721",
+        "longitude": "121.77401699999999",
+        "Country": "Philippines",
+        "Happiness score": "5.88"
+    },
+    "Pitcairn Islands": {
+        "latitude": "-24.703615",
+        "longitude": "-127.43930800000001",
+        "Country": "Pitcairn Islands",
+        "Happiness score": ""
+    },
+    "Poland": {
+        "latitude": "51.919438",
+        "longitude": "19.145135999999997",
+        "Country": "Poland",
+        "Happiness score": "6.166"
+    },
+    "Portugal": {
+        "latitude": "39.399871999999995",
+        "longitude": "-8.224454",
+        "Country": "Portugal",
+        "Happiness score": "5.928999999999999"
+    },
+    "Puerto Rico": {
+        "latitude": "18.220833",
+        "longitude": "-66.590149",
+        "Country": "Puerto Rico",
+        "Happiness score": ""
+    },
+    "Qatar": {
+        "latitude": "25.354826",
+        "longitude": "51.183884",
+        "Country": "Qatar",
+        "Happiness score": ""
+    },
+    "Romania": {
+        "latitude": "45.943160999999996",
+        "longitude": "24.96676",
+        "Country": "Romania",
+        "Happiness score": "6.14"
+    },
+    "Russia": {
+        "latitude": "61.52401",
+        "longitude": "105.31875600000001",
+        "Country": "Russia",
+        "Happiness score": "5.477"
+    },
+    "Rwanda": {
+        "latitude": "-1.940278",
+        "longitude": "29.873888",
+        "Country": "Rwanda",
+        "Happiness score": "3.415"
+    },
+    "R\u00e9union": {
+        "latitude": "-21.115141",
+        "longitude": "55.536384",
+        "Country": "R\u00e9union",
+        "Happiness score": ""
+    },
+    "Saint Helena": {
+        "latitude": "-24.143473999999998",
+        "longitude": "-10.030696",
+        "Country": "Saint Helena",
+        "Happiness score": ""
+    },
+    "Saint Kitts and Nevis": {
+        "latitude": "17.357822",
+        "longitude": "-62.782998",
+        "Country": "Saint Kitts and Nevis",
+        "Happiness score": ""
+    },
+    "Saint Lucia": {
+        "latitude": "13.909444",
+        "longitude": "-60.97889300000001",
+        "Country": "Saint Lucia",
+        "Happiness score": ""
+    },
+    "Saint Pierre and Miquelon": {
+        "latitude": "46.941936",
+        "longitude": "-56.27111",
+        "Country": "Saint Pierre and Miquelon",
+        "Happiness score": ""
+    },
+    "Saint Vincent and the Grenadines": {
+        "latitude": "12.984305",
+        "longitude": "-61.287228000000006",
+        "Country": "Saint Vincent and the Grenadines",
+        "Happiness score": ""
+    },
+    "Samoa": {
+        "latitude": "-13.759029",
+        "longitude": "-172.10462900000005",
+        "Country": "Samoa",
+        "Happiness score": ""
+    },
+    "San Marino": {
+        "latitude": "43.94236",
+        "longitude": "12.457777",
+        "Country": "San Marino",
+        "Happiness score": ""
+    },
+    "Saudi Arabia": {
+        "latitude": "23.885942",
+        "longitude": "45.079162",
+        "Country": "Saudi Arabia",
+        "Happiness score": "6.494"
+    },
+    "Senegal": {
+        "latitude": "14.497401000000002",
+        "longitude": "-14.452361999999999",
+        "Country": "Senegal",
+        "Happiness score": "5.132000000000001"
+    },
+    "Serbia": {
+        "latitude": "44.016521000000004",
+        "longitude": "21.005859",
+        "Country": "Serbia",
+        "Happiness score": "6.077999999999999"
+    },
+    "Seychelles": {
+        "latitude": "-4.679574",
+        "longitude": "55.491977",
+        "Country": "Seychelles",
+        "Happiness score": ""
+    },
+    "Sierra Leone": {
+        "latitude": "8.460555000000001",
+        "longitude": "-11.779889",
+        "Country": "Sierra Leone",
+        "Happiness score": "3.8489999999999998"
+    },
+    "Singapore": {
+        "latitude": "1.352083",
+        "longitude": "103.819836",
+        "Country": "Singapore",
+        "Happiness score": "6.377000000000001"
+    },
+    "Slovakia": {
+        "latitude": "48.669026",
+        "longitude": "19.699023999999998",
+        "Country": "Slovakia",
+        "Happiness score": "6.331"
+    },
+    "Slovenia": {
+        "latitude": "46.151241",
+        "longitude": "14.995463",
+        "Country": "Slovenia",
+        "Happiness score": "6.461"
+    },
+    "Solomon Islands": {
+        "latitude": "-9.645710000000001",
+        "longitude": "160.156194",
+        "Country": "Solomon Islands",
+        "Happiness score": ""
+    },
+    "Somalia": {
+        "latitude": "5.152149",
+        "longitude": "46.199616",
+        "Country": "Somalia",
+        "Happiness score": ""
+    },
+    "South Africa": {
+        "latitude": "-30.559482",
+        "longitude": "22.937506",
+        "Country": "South Africa",
+        "Happiness score": "4.956"
+    },
+    "South Georgia and the South Sandwich Islands": {
+        "latitude": "-54.429579000000004",
+        "longitude": "-36.587909",
+        "Country": "South Georgia and the South Sandwich Islands",
+        "Happiness score": ""
+    },
+    "South Korea": {
+        "latitude": "35.90775700000001",
+        "longitude": "127.766922",
+        "Country": "South Korea",
+        "Happiness score": "5.845"
+    },
+    "Spain": {
+        "latitude": "40.463667",
+        "longitude": "-3.7492199999999998",
+        "Country": "Spain",
+        "Happiness score": "6.4910000000000005"
+    },
+    "Sri Lanka": {
+        "latitude": "7.873054",
+        "longitude": "80.77179699999998",
+        "Country": "Sri Lanka",
+        "Happiness score": "4.325"
+    },
+    "Sudan": {
+        "latitude": "12.862807",
+        "longitude": "30.217636",
+        "Country": "Sudan",
+        "Happiness score": ""
+    },
+    "Suriname": {
+        "latitude": "3.9193050000000014",
+        "longitude": "-56.02778299999999",
+        "Country": "Suriname",
+        "Happiness score": ""
+    },
+    "Svalbard and Jan Mayen": {
+        "latitude": "77.553604",
+        "longitude": "23.670272",
+        "Country": "Svalbard and Jan Mayen",
+        "Happiness score": ""
+    },
+    "Swaziland": {
+        "latitude": "-26.522503000000004",
+        "longitude": "31.465866",
+        "Country": "Swaziland",
+        "Happiness score": "4.308"
+    },
+    "Sweden": {
+        "latitude": "60.128161",
+        "longitude": "18.643501",
+        "Country": "Sweden",
+        "Happiness score": "7.3629999999999995"
+    },
+    "Switzerland": {
+        "latitude": "46.818188",
+        "longitude": "8.227511999999999",
+        "Country": "Switzerland",
+        "Happiness score": "7.571000000000001"
+    },
+    "Syria": {
+        "latitude": "34.802075",
+        "longitude": "38.99681500000001",
+        "Country": "Syria",
+        "Happiness score": ""
+    },
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+        "latitude": "0.18636",
+        "longitude": "6.613081",
+        "Country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "Happiness score": ""
+    },
+    "Taiwan": {
+        "latitude": "23.69781",
+        "longitude": "120.96051499999999",
+        "Country": "Taiwan",
+        "Happiness score": "6.584"
+    },
+    "Tajikistan": {
+        "latitude": "38.861034000000004",
+        "longitude": "71.276093",
+        "Country": "Tajikistan",
+        "Happiness score": "5.466"
+    },
+    "Tanzania": {
+        "latitude": "-6.369028",
+        "longitude": "34.888822",
+        "Country": "Tanzania",
+        "Happiness score": "3.623"
+    },
+    "Thailand": {
+        "latitude": "15.870032",
+        "longitude": "100.992541",
+        "Country": "Thailand",
+        "Happiness score": "5.985"
+    },
+    "Timor-Leste": {
+        "latitude": "-8.874217",
+        "longitude": "125.727539",
+        "Country": "Timor-Leste",
+        "Happiness score": ""
+    },
+    "Togo": {
+        "latitude": "8.619543",
+        "longitude": "0.824782",
+        "Country": "Togo",
+        "Happiness score": "4.107"
+    },
+    "Tokelau": {
+        "latitude": "-8.967363",
+        "longitude": "-171.855881",
+        "Country": "Tokelau",
+        "Happiness score": ""
+    },
+    "Tonga": {
+        "latitude": "-21.178986",
+        "longitude": "-175.198242",
+        "Country": "Tonga",
+        "Happiness score": ""
+    },
+    "Trinidad and Tobago": {
+        "latitude": "10.691803",
+        "longitude": "-61.222503",
+        "Country": "Trinidad and Tobago",
+        "Happiness score": ""
+    },
+    "Tunisia": {
+        "latitude": "33.886917",
+        "longitude": "9.537499",
+        "Country": "Tunisia",
+        "Happiness score": "4.596"
+    },
+    "Turkey": {
+        "latitude": "38.963745",
+        "longitude": "35.243322",
+        "Country": "Turkey",
+        "Happiness score": "4.948"
+    },
+    "Turkmenistan": {
+        "latitude": "38.969719",
+        "longitude": "59.556278000000006",
+        "Country": "Turkmenistan",
+        "Happiness score": "5.066"
+    },
+    "Turks and Caicos Islands": {
+        "latitude": "21.694025",
+        "longitude": "-71.797928",
+        "Country": "Turks and Caicos Islands",
+        "Happiness score": ""
+    },
+    "Tuvalu": {
+        "latitude": "-7.109535",
+        "longitude": "177.64933",
+        "Country": "Tuvalu",
+        "Happiness score": ""
+    },
+    "United States Virgin Islands": {
+        "latitude": "18.335765",
+        "longitude": "-64.896335",
+        "Country": "United States Virgin Islands",
+        "Happiness score": ""
+    },
+    "Uganda": {
+        "latitude": "1.373333",
+        "longitude": "32.290275",
+        "Country": "Uganda",
+        "Happiness score": "4.636"
+    },
+    "Ukraine": {
+        "latitude": "48.379433",
+        "longitude": "31.16558",
+        "Country": "Ukraine",
+        "Happiness score": "4.875"
+    },
+    "United Arab Emirates": {
+        "latitude": "23.424076",
+        "longitude": "53.847818000000004",
+        "Country": "United Arab Emirates",
+        "Happiness score": "6.561"
+    },
+    "United Kingdom": {
+        "latitude": "55.378051",
+        "longitude": "-3.435973",
+        "Country": "United Kingdom",
+        "Happiness score": "7.064"
+    },
+    "United States of America": {
+        "latitude": "37.09024",
+        "longitude": "-95.712891",
+        "Country": "United States of America",
+        "Happiness score": ""
+    },
+    "Uruguay": {
+        "latitude": "-32.522779",
+        "longitude": "-55.765834999999996",
+        "Country": "Uruguay",
+        "Happiness score": "6.431"
+    },
+    "Uzbekistan": {
+        "latitude": "41.377491",
+        "longitude": "64.585262",
+        "Country": "Uzbekistan",
+        "Happiness score": "6.178999999999999"
+    },
+    "Vanuatu": {
+        "latitude": "-15.376706",
+        "longitude": "166.959158",
+        "Country": "Vanuatu",
+        "Happiness score": ""
+    },
+    "Vatican City": {
+        "latitude": "41.902916",
+        "longitude": "12.453389",
+        "Country": "Vatican City",
+        "Happiness score": ""
+    },
+    "Venezuela": {
+        "latitude": "6.42375",
+        "longitude": "-66.58973",
+        "Country": "Venezuela",
+        "Happiness score": "4.8919999999999995"
+    },
+    "Vietnam": {
+        "latitude": "14.058323999999999",
+        "longitude": "108.277199",
+        "Country": "Vietnam",
+        "Happiness score": "5.4110000000000005"
+    },
+    "Wallis and Futuna": {
+        "latitude": "-13.768752",
+        "longitude": "-177.156097",
+        "Country": "Wallis and Futuna",
+        "Happiness score": ""
+    },
+    "Western Sahara": {
+        "latitude": "24.215526999999998",
+        "longitude": "-12.885834",
+        "Country": "Western Sahara",
+        "Happiness score": ""
+    },
+    "Yemen": {
+        "latitude": "15.552726999999999",
+        "longitude": "48.516388",
+        "Country": "Yemen",
+        "Happiness score": "3.658"
+    },
+    "Zambia": {
+        "latitude": "-13.133897",
+        "longitude": "27.849332",
+        "Country": "Zambia",
+        "Happiness score": "4.073"
+    },
+    "Zimbabwe": {
+        "latitude": "-19.015438",
+        "longitude": "29.154857",
+        "Country": "Zimbabwe",
+        "Happiness score": "3.145"
+    }
+}
