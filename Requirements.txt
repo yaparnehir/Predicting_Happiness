@@ -3,7 +3,7 @@ Main
 *Jupyter Notebook
 *Git bash
 *Visual Studio
-
+* Tableau
 Libraries in the working environment
 - Pandas
 -Plotly
