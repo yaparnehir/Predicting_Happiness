@@ -245,7 +245,7 @@ Kernel *Poly* performs better than *Linear*.
 
 ## Data Cleaning
 > Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data <br/>
-![Diagram]([Images/Dataset diagram.PNG](https://github.com/yaparnehir/Final_Project/blob/31170123b68e445147fe8f5648dc80d8eb422e59/Images/Dataset%20diagram.PNG))
+![Diagram]([Images/Dataset&nbspdiagram.PNG](https://github.com/yaparnehir/Final_Project/blob/31170123b68e445147fe8f5648dc80d8eb422e59/Images/Dataset%20diagram.PNG))
 
 
 
