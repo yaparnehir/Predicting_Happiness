@@ -245,9 +245,7 @@ Kernel *Poly* performs better than *Linear*.
 
 ## Data Cleaning
 > Drop extra columns , drop empty rows, check duplicates, making all the datasets country Indexes the same to make the joins without losing the data <br/>
-![Diagram]([/Dataset%20diagram.PNG](https://github.com/yaparnehir/Final_Project/blob/31170123b68e445147fe8f5648dc80d8eb422e59/Images/Dataset%20diagram.PNG))
-#### Explanation of model choice   
-As both target and predictors are continuous variables, a natural choice of model is **Multiple Least Squares Regression**. If the relationships between the target and one or more of the features are not linear, **Polynomial Regression** and/or **Neural Network** can be explored. If the target is transformed into categories by ranges of happiness score, **Logistic Regression** and/or **Randon Forest** can be used.
+![Diagram]([Images/Dataset diagram.PNG](https://github.com/yaparnehir/Final_Project/blob/31170123b68e445147fe8f5648dc80d8eb422e59/Images/Dataset%20diagram.PNG))
 
 
 
