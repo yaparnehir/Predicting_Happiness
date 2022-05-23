@@ -62,6 +62,7 @@ Danielle
    - Tableau and other applications are being considered.
 - Also researching ideas for including interactivity and refering back to past modules.
 - [Tableau Viz](https://public.tableau.com/views/Top20Bottom20Happy/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
+  -Tableau visual to be used in dashboard.
 ## Methods 
 > Unsupervised ML 
 ## Technology
