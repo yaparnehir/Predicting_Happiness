@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particles Js</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* we use dot (.) to target class and
+        hash (#) to target id... */
+        #particles-js {
+            width: 100%;
+            height: 100vh;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)),
+                url("img.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="particles-js">
+        <div class="center-text">
+            <h1>PARTICLES.JS</h1>
+        </div>
+    </div>
+
+    <!-- particles js files -->
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -11,52 +11,49 @@
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Original theme -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet" href="static/css/style.css"> -->
-  <style>
-    .jumbotron {
-      background: rgb(203,40,40);
-      background: linear-gradient(90deg, rgba(203,40,40,1) 8%, rgba(57,134,214,1) 50%, rgba(43,193,70,1) 99%);
-      text-align: center;
-      font-weight: bold;
-      color: rgb(238, 233, 229);
-    }
+  <link rel="stylesheet" href="static/css/main_style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.4/chroma.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Bungee+Shade|Work+Sans&display=swap"
+    rel="stylesheet">
 
-    div.jumbotron>h1 {
-      text-shadow: 1px 1px 2px black;
-    }
-
-    p {
-      text-shadow: 1px 1px 2px black;
-    }
-
-    body {
-      background-image: linear-gradient(to left top, #b45936, #bb4e4f, #b84a6a, #ab4d84, #94569a, #7c65b1, #5774c2, #0081ca, #0095ce, #00a5bc, #00b096, #1eb867);
-      background-size: 100%;
-      text-align: center;
-    }
-
-    .body-gauge {
-      text-align: center;
-    }
-
-    .panel-body {
-      text-align: left;
-      font-family: 'Times New Roman', Times, serif;
-      font-weight: bolder;
-
-    }
-  </style>
 </head>
 
 <body>
 
+  <div id="particles-js"></div>
   <div class="container">
+    <menu>
+      <!-- Navigation-->
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+          <img src="static/images/globe.svg" width="100" height="100" class="logo" alt="">
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="/" class="d-inline-block align-top" alt="Home">World Happiness: 2021</a></li>
+              <li class="nav-item"><a class="nav-link" href="templates/about.html">About Us: Error 404</a></li>
+              <li class="nav-item"><a class="nav-link" href="templates/Nehir_leaflet.html" target="_blank">Nehir: Leaflet</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/yaparnehir/Final_Project" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </menu>
+
+
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>World Happiness Report: 2021</h1>
         <p><b>Use the interactive charts below to explore the dataset</b></p>
       </div>
     </div>
+
+
+
+
     <div class="row">
       <!-- <Create DROP DOWN MENU FOR TEST ID NO.> -->
       <div class="col-md-3">
@@ -84,13 +81,13 @@
         <div id="bar"></div>
       </div>
     </div>
-    <!-- <DISPALY Bubble Chart> -->
+    <!-- <DISPALY Tableau> -->
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
-    <div class=col-lg-10>
+    <div class=col-lg-12>
       <div class='tableauPlaceholder' id='viz1653145656612' style='position: relative'><noscript><a href='#'><img
               alt='Happiness '
               src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldHappinessPrediction&#47;Happiness&#47;1_rss.png'
@@ -116,41 +113,18 @@
       <br>
     </div>
 
-    <p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </p>
-  </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="static/js/plots.js"></script>
-  <script src="static/json/happy_metadata.js"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static/js/plots.js"></script>
+    <script src="static/json/happy_metadata.js"></script>
+
+    <!-- particles js files -->
+    <script src="static/js/particles.js"></script>
+    <script src="static/js/app.js"></script>
 
 </body>
 

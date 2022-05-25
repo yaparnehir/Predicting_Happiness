@@ -1,0 +1,7 @@
+1) I use a different format style for happiness_complete.json
+
+2) Only alter the plots.js inisde static/js folder, leave main one alone for reference on how to path code
+
+3)If struggling to fit data in html got to index.html
+	-  switch class = "container" to class = "container-fluid"
+	- in doing so the website will adapt to users screen resolution

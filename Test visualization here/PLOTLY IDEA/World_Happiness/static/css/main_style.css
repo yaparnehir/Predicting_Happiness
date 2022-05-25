@@ -1,0 +1,134 @@
+.jumbotron {
+    background-image: url("city_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(238, 233, 229);
+    text-emphasis-color: rgb(238, 233, 229);
+}
+
+div.jumbotron>h1 {
+    text-shadow: 2px 2px 3px black;
+}
+
+.panel-body {
+    text-align: left;
+}
+
+h6 {
+    font-family: OCR A Std, monospace;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    margin: 0%;
+    text-align: center;
+    background: transparent !important;
+
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #6f636a, #6a5365, #614462, #553561, #442961, #482565, #4d2169, #531b6d, #75176f, #94126e, #b01168, #c91c60);
+    background-size: 100%;
+    background-position: center;
+    position: fixed !important;
+
+}
+
+p {
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+.body-gauge {
+    text-align: center;
+}
+
+
+
+.logo{
+    float: left;
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+
+    padding: 25px;
+    margin: 35px;
+    font-size: 20px;
+    font-weight: 900;
+
+    position: relative;
+}
+
+nav a{
+    color: lightgray;
+    position: relative;
+    text-decoration: none !important;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+
+    background-color: lightseagreen;
+
+    position: absolute;
+    top: 0;
+    height: 2px;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+menu{
+    background-color: #55d6aa ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
