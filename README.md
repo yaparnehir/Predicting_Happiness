@@ -25,6 +25,8 @@
 - [World_Happiness_Report_2021](https://www.kaggle.com/datasets/mathurinache/world-happiness-report?select=2021.csv)
 - [Unemployment_data_2021.csv](https://github.com/yaparnehir/Final_Project/blob/a81f6fd344fe9690ee0cd27da7d06214f74a68a6/Resources/Unemployment_data_2021.csv)
     - For the Unemployment data, <em> please see "Acknowledgement" section at the bottom </em>
+- [Country_coordinates.csv](https://github.com/yaparnehir/Final_Project/blob/main/Resources/country-coordinates-world.csv)
+- [Mortality_Data_2021.csv](https://github.com/yaparnehir/Final_Project/blob/main/Resources/MortalityDataWHR2021C2.csv)
 
 ## FlowChart
 <p align="center">
@@ -51,8 +53,6 @@ Nusrat
     
 ### Circle
 Amanda
-
-
 - ETL Process
 - Database and server adaptation
 - Presentation
@@ -105,11 +105,54 @@ Danielle
     - Creating database
     - Mockup of machine learning
  
-### Exploratory Data Analysis (EDA)
+### Data Processing and Data Storage
 
-#### Entity Relationship Diagram (ERD)
+#### Datasets
+
+- [World_Happiness_Report_2021](https://www.kaggle.com/datasets/mathurinache/world-happiness-report?select=2021.csv)
+- [Unemployment_data_2021.csv](https://github.com/yaparnehir/Final_Project/blob/a81f6fd344fe9690ee0cd27da7d06214f74a68a6/Resources/Unemployment_data_2021.csv)
+- [Country_coordinates.csv](https://github.com/yaparnehir/Final_Project/blob/main/Resources/country-coordinates-world.csv)
+- [Mortality_Data_2021.csv](https://github.com/yaparnehir/Final_Project/blob/main/Resources/MortalityDataWHR2021C2.csv)
+
+#### Exploratory Dana Analysis (EDA)
+
+For this first step, it was used a Jupyter Notebook to clean the data and the SQL ETL to join and create the final dataset to be used for this project. 
+
+#### Data cleaning - Jupyter Notebook
+
+First of all, we imported some dependencies (e.g. json, pandas, numpy, sqlalchemy) to extract and transform the datasets.
+Also, we have executed the following steps to inspect and clean the datasets.
+1. Renamed columns as needed.
+2. Drop unnecessary columns from the dataframe.
+3. Check data type (df.dtype).
+4. Check null values.
+5. Use df.describe function to understand the data.
+6. Create a "IS_HAPPY" column as binary.
+7. Inspected values.
+8. For the 'Mortility Data 2021', we used mainly the Gini Index.
+
+At the end, we have used SQLAlchemy to load the data to SQL.
+1. World Happiness 2021
+2. Country Coordinates 
+3. Gini index 2021
+4. Unemployment 2021
+
+#### Data Storage - SQL 
+
+* Entity Relationship Diagram (ERD)
 
 ![ERD](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Dataset%20diagram.PNG)
+
+For this step, we've loaded the cleaned datasets into pgAdmin and made the necessary merge/join.
+* Create happy_complete dataset:
+1. Loaded happiness_clean table
+2. Left Join gini_index using 'Country' column as a key in the happiness_clean dataset.
+3. Left Join unemployment using 'Country' column as a key in the happiness_clean dataset.
+4. Left Join country_coordinates using 'Country' column as a key in the happiness_clean dataset.
+
+* Create happy_coordinates dataset:
+Adding country coordinates with happiness score. 
+1. Select country_coordinates table and left join "happiness score" column from happy_complete table into the happy_coordinates table.
     
 ### Machine Learning mockup
     
