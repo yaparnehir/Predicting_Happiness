@@ -1,3 +1,27 @@
+div.summary-shape {
+    text-shadow : none !important;
+    display: inline-block;
+    border-radius: 15px 50px 30px;
+    background:white;
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+  }
+
+div.summary-title {
+    text-shadow : none !important;
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    color: #0c0b0b
+}
+
+div.summary-text{
+    text-shadow : none !important;
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    color: #464343
+}
 .jumbotron {
     background-image: url("city_img.jpg");
     background-repeat: no-repeat;
@@ -46,13 +70,11 @@ body {
 
 }
 
-p {
-    text-shadow: 1px 1px 2px black;
-}
 
 
 
 .body-gauge {
+    display: inline-block;
     text-align: center;
 }
 
