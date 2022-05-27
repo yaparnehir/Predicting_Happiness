@@ -13,14 +13,14 @@ div.summary-title {
     text-shadow : none !important;
     font-family: OCR A Std, monospace;
     text-align: center;
-    color: #0c0b0b
+    color: #0f0c0c
 }
 
 div.summary-text{
     text-shadow : none !important;
     font-family: OCR A Std, monospace;
     text-align: center;
-    color: #464343
+    color: #1d1a1a
 }
 .jumbotron {
     background-image: url("city_img.jpg");
@@ -41,6 +41,11 @@ div.jumbotron>h1 {
 .panel-body {
     text-align: left;
 }
+
+div.summary-text>h5>b{
+    font-size: 16px;
+}
+
 
 h6 {
     font-family: OCR A Std, monospace;
