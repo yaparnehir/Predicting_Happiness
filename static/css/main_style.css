@@ -76,10 +76,6 @@ body {
 
 }
 
-div.regional-chart > div.tableauPlaceholder{
-    right: 500px !important;
-}
-
 div.tableauPlaceholder  {
     
     overflow: scroll !important;
