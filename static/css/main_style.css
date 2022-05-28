@@ -57,6 +57,7 @@ h6 {
 .container {
     width: 90%;
     margin: 0 auto;
+
 }
 body {
     margin: 0%;
@@ -75,6 +76,18 @@ body {
 
 }
 
+div.regional-chart > div.tableauPlaceholder{
+    right: 500px !important;
+}
+
+div.tableauPlaceholder  {
+    
+    overflow: scroll !important;
+    height: 100% !important;
+    width: 100%  !important;
+    bottom: 15px;
+    margin: 0 auto;
+}
 
 
 
