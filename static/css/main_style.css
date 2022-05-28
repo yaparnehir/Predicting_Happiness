@@ -76,13 +76,29 @@ body {
 
 }
 
-div.tableauPlaceholder  {
-    
-    overflow: scroll !important;
-    height: 100% !important;
-    width: 100%  !important;
+div.tableauPlaceholder-regional{
+
+    left: 10%;
+    display: inline-block;
+    height: auto !important;
+    width: 100%; max-width: 1000px;
     bottom: 15px;
-    margin: 0 auto;
+    margin: auto;
+    position: relative !important;
+}
+
+div.tableauPlaceholder-info  {
+    
+    overflow: auto;
+    right: 6%;
+    display: inline-flexbox;
+    height: auto !important;
+    width: 119% !important; 
+    max-width: 1000px !important;
+    bottom: 15px;
+    margin: auto;
+    position: relative !important;
+
 }
 
 
@@ -128,8 +144,10 @@ nav a{
 }
 
 nav a:hover{
-    color: #000;
+    color: #000 !important;
 }
+
+
 
 nav a::before{
     content: '';
@@ -150,7 +168,9 @@ nav a:hover::before{
     width: 100%;
 }
 
-
+nav a:visited{
+    color: lightgray;
+}
 
 
 
