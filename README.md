@@ -2,7 +2,7 @@
 
 ## Overview
 
-What makes citizens of a country happy? The World Happiness Report publishes **Hapiness Score** annually which measures average level of happiness by countries. What factors may influence this score? Is income and economic progress enough to make countries happy? Or do social factors play an important role as well?
+What makes citizens of a country happy? The World Happiness Report publishes **Happiness Score** annually which measures average level of happiness by countries. What factors may influence this score? Is income and economic progress enough to make countries happy? Or do social factors play an important role as well?
 
 ### Key questions
 
@@ -66,6 +66,8 @@ SciKitLearn - supervised machine learning models
 Below preprocessing operations were done on the original data before storing them into a database:
     - Uneccesary columns were dropped;
     - A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across all sources, e.g. Swaziland vs Eswatini);
+    - Summary statistics was produced to understand the nature of the data;
+    - An "IS_HAPPY" column was created by mapping to '0' if hapiness score < 5.5 and '1' if score >= 5.5;
     - Potentially important external feature were merged (e.g. Unemployment rate);
     
 ### Storing
@@ -115,7 +117,7 @@ To prepare the data for further analysis, it was transformed as below:
 - Data types were checked;
 - Number of null values by coulmns were checked. Since there were only a few records with missing values, those were removed instead of being imputed;
 - Summary statistics was produced to understand the nature of the data;
-- An "IS_HAPPY" column was created by mapping to '0' if hapiness score < 5.5 and '1' if score >5.5;
+
 
 #### Feature selection
 
