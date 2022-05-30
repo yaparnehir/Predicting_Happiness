@@ -12,7 +12,7 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 
 #### Google Slides/ Visual Dashboaard Links
 - Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1BPEkMbP5Jsawr3WNu7WC1gh0nd24HH7HwgoW9q4v_ow/edit?usp=sharing)
-- Dashboard: [World-Happiness-Report 2021](https://world-happiness-2021-report.netlify.app/)
+- Dashboard: [World-Happiness-Report 2021](https://world-happiness-report-2021.netlify.app/)
 
 ## Datasets
 
