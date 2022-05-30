@@ -59,9 +59,24 @@ Danielle
 ## Methods 
 > Unsupervised ML 
 ## Technology
+The World Happiness Report is a publication of the Sustainable Development Solutions Network (SDSN). The dataset has a collection of indicators on 149 countries around the world including happiness score on a scale of 0 to 10, its standard error and more.
+
+- [Mortality Data](https://worldhappiness.report/ed/2021/#appendices-and-data)
+
+This is a supplementary dataset in The World Happiness Report which, among other indicators, includes the Index of institutional trust and Gini coefficient of income. These two indicators were included in the analysis.
+
+- [Unemployment rate 2021](https://data.worldbank.org/indicator/sl.uem.totl.zs)
+
+This dataset from the World Bank contains unemployment rate for 266 countries and areas for 2021. 
+
+- [Country coordinates](https://www.kaggle.com/datasets/vinitasilaparasetty/country-coordinates-world)
+
+A kaggle dataset containing coordinates of countries which was used for map visualization of the data.
 
 
+## Resources
 
+### Data Cleaning and Analysis
 - Python
 - Jupyter Notebook
 - Matplotlib
