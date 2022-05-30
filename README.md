@@ -10,7 +10,9 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 - What is the relative importance of economic factors vis-a-vis social factors in this regard?
 - Does inequality affect happiness?
 
-A presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
+#### Google Slides/ Visual Dashboaard Links
+- Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
+- Dashboard: [World-Happiness-Report 2021](https://world-happiness-2021-report.netlify.app/)
 
 ## Datasets
 
