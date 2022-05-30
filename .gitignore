@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#vscode configurations
+.vscode
+
+# configuration(s)
+config.py
+config.js
+
 # C extensions
 *.so
 

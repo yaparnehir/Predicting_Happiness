@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>World Happiness!</title>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Original theme -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="static/css/main_style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.4/chroma.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Bungee+Shade|Work+Sans&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="particles-js"></div>
+  <div class="container">
+    <menu>
+      <!-- Navigation-->
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+          <img src="static/images/globe.svg" width="100" height="100" class="logo" alt="">
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="/" class="d-inline-block align-top" alt="Home">World
+                  Happiness: 2021</a></li>
+              <li class="nav-item"><a class="nav-link" href="templates/about.html">About Us: Error 404</a></li>
+              <li class="nav-item"><a class="nav-link" href="templates/Nehir_leaflet.html" target="_blank">Nehir:
+                  Leaflet</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/yaparnehir/Final_Project"
+                  target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </menu>
+
+
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>World Happiness Report: 2021</h1>
+        <p><b>Use the interactive charts below to explore the dataset</b></p>
+      </div>
+    </div>
+
+
+
+
+    <div class="row">
+      <!-- <Create DROP DOWN MENU FOR TEST ID NO.> -->
+      <div class="col-md-3">
+        <div class="well">
+          <h5><b>Country:</b></h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <!-- <DISPALY DEMOGRAPHIC INFO OF SELECTED ID NO.> -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Country Info</h3>
+          </div><b>
+            <div id="sample-metadata" class="panel-body"></div>
+        </div> </b>
+      </div>
+      <!-- <DISPALY OverView ParaGraph> -->
+
+
+      <!---->
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <div class="summary-shape">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="summary-title">
+                  <h1><strong><u>OverView</u></strong></h1>
+                  <h3><strong>A Little Breakdown:</strong></h3>
+                </div>
+                <div class="summary-text">
+                  <br>
+                  <h5><b>Our Goal</b></h5>
+                  <p>We are Group 4:Error 404, we undertook the task of trying to understan the influential factors
+                    impacting the happiness of a
+                    country while determing the accuracy of such factors and claims.The factors in question are:<em>
+                      LOGGED
+                      GDP PER CAPITA, SOCIAL SUPPORT,
+                      HEALTHY LIFE EXPECTANCY, FREEDOM TO MAKE LIFE CHOICES, GENEROSITY, PERCEPTIONS OF CORRUPTION,
+                      INDEX
+                      OF INSTITUTIONAL TRUST,
+                      GINI COEFFICIENT OF INCOME(leves of income inequality),</em> and <em>UNEMP_SCORE(Unemployment
+                      rating at given
+                      time)</em>.</p>
+                  <h5><b>Challenges Faced</b></h5>
+                  <p>As we progressed carrying out ETL process for the data we realized our original large data had
+                    shrunk(in number of dimensions) due to the
+                    elimination of unneccessary/noisy data. Although the data being used was relevant and impacted
+                    "Happiness Score" we realized the dilema, information on how the scores were assigned was excluded
+                    from the source as well as, the mathematical
+                    computations and formulas to derive
+                    these results had been made exclusive/confidential. Our effort to find more relevant data that could
+                    impact a country/countries happiness
+                    became a more arduuos task than we realized since we had to ensure the integrity and accuracy of the
+                    data being merged.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <DISPALY Gauge Chart> -->
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <div class="guage">
+              <div id="gauge"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <DISPALY Tableau> -->
+    <div class="info-map-chart">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class='tableauPlaceholder-info' id='viz1653668618938' style='position: relative'><noscript><a href='#'><img
+                alt='Happiness '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2H&#47;2HFRRTG74&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path' value='shared&#47;2HFRRTG74' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2H&#47;2HFRRTG74&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1653668618938'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1227px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+    </div>
+
+    <div class="regional-chart">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class='tableauPlaceholder-regional' id='viz1653668849508' style='position: relative'><noscript><a href='#'><img
+                alt='Happiness_distribution '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ha&#47;happiness-region-distribution&#47;Happiness_distribution&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='happiness-region-distribution&#47;Happiness_distribution' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ha&#47;happiness-region-distribution&#47;Happiness_distribution&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1653668849508'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static/js/plots.js"></script>
+    <script src="static/json/happy_metadata.js"></script>
+
+    <!-- particles js files -->
+    <script src="static/js/particles.js"></script>
+    <script src="static/js/app.js"></script>
+
+</body>
+
+</html>
