@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+.background_image {
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f6f4ff, #ece8ff, #e3ddff, #cec4ff, #b8abff, #a093ff, #867bff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+.child1 {
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.child2 {
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    height: auto;
+    width: auto;
+    
+}
+
+.jumbotron {
+    display: flex;
+    background-color: transparent;
+    padding: 20px;
+    color: black;
+    
+    
+}

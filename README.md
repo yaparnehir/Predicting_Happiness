@@ -18,24 +18,49 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 
 - [World Happiness Report_2021](https://worldhappiness.report/ed/2021/#appendices-and-data)
 
-The World Happiness Report is a publication of the Sustainable Development Solutions Network (SDSN). The dataset has a collection of indicators on 149 countries around the world including happiness score on a scale of 0 to 10, its standard error and more.
 
-- [Mortality Data](https://worldhappiness.report/ed/2021/#appendices-and-data)
+## Roles
+### Square
+Nehir
+- Responsible for the repository
+- Make sure everyone has a branch on their own
+- Watching all the process was made in branches, keep the updates.
+- Testing, discussing before merging into a main branch.
 
-This is a supplementary dataset in The World Happiness Report which, among other indicators, includes the Index of institutional trust and Gini coefficient of income. These two indicators were included in the analysis.
+### Triangle
+Nusrat
+- Contribute to data cleaning and processing;
+    - Data preparation is likely to be iterative with model evaluation
+- Select model(s) for the data in consultation with the group;
+- Train, evaluate and improve model(s)
+    - Run model, evaluate performance, re-asses feature selection and/or model specification if needed;
+- Interprete findings.
+    
+### Circle
+Amanda
+![Diagram](/Dataset%20diagram.PNG)
+    
+### X Role
+Kartikye
+- discuss how data will be cleaned then merged, may need to create additonal tables in database to export
+- assist <b>Amanda</b> in laying down framework for SQL files
+-If group pace is faster then project timeline begin research into establishing "github pages" to create website visual
+    - look to previous modules for guidance/look to TA's for insight
+- assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
 
-- [Unemployment rate 2021](https://data.worldbank.org/indicator/sl.uem.totl.zs)
+### Visualization
+Danielle 
+- Discuss ideas for possible visuals for the final project
+- Look over data to see what visual applications may fit
+   - Tableau and other applications are being considered.
+- Also researching ideas for including interactivity and refering back to past modules.
+- [Tableau Viz](https://public.tableau.com/views/Top20Bottom20Happy/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
+  -Tableau visual to be used in dashboard.
+## Methods 
+> Unsupervised ML 
+## Technology
 
-This dataset from the World Bank contains unemployment rate for 266 countries and areas for 2021. 
 
-- [Country coordinates](https://www.kaggle.com/datasets/vinitasilaparasetty/country-coordinates-world)
-
-A kaggle dataset containing coordinates of countries which was used for map visualization of the data.
-
-
-## Resources
-
-### Data Cleaning and Analysis
 
 - Python
 - Jupyter Notebook
