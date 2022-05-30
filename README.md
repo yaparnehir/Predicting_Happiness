@@ -11,7 +11,7 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 - Does inequality affect happiness?
 
 #### Google Slides/ Visual Dashboaard Links
-- Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
+- Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1BPEkMbP5Jsawr3WNu7WC1gh0nd24HH7HwgoW9q4v_ow/edit?usp=sharing)
 - Dashboard: [World-Happiness-Report 2021](https://world-happiness-2021-report.netlify.app/)
 
 ## Datasets
@@ -66,9 +66,9 @@ SciKitLearn - supervised machine learning models
 ### Preprocessing
     
 Below preprocessing operations were done on the original data before storing them into a database:
-    - Uneccesary columns were dropped;
-    - A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across all sources, e.g. Swaziland vs Eswatini);
-    - Potentially important external feature were merged (e.g. Unemployment rate);
+- Uneccesary columns were dropped;
+- A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across all sources, e.g. Swaziland vs Eswatini);
+- Potentially important external feature were merged (e.g. Unemployment rate);
     
 ### Storing
 
