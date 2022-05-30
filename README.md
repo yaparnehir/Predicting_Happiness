@@ -18,36 +18,6 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 
 - [World Happiness Report_2021](https://worldhappiness.report/ed/2021/#appendices-and-data)
 
-
-## Roles
-### Square
-Nehir
-- Responsible for the repository
-- Make sure everyone has a branch on their own
-- Watching all the process was made in branches, keep the updates.
-- Testing, discussing before merging into a main branch.
-
-### Triangle
-Nusrat
-- Contribute to data cleaning and processing;
-    - Data preparation is likely to be iterative with model evaluation
-- Select model(s) for the data in consultation with the group;
-- Train, evaluate and improve model(s)
-    - Run model, evaluate performance, re-asses feature selection and/or model specification if needed;
-- Interprete findings.
-    
-### Circle
-Amanda
-![Diagram](/Dataset%20diagram.PNG)
-    
-### X Role
-Kartikye
-- discuss how data will be cleaned then merged, may need to create additonal tables in database to export
-- assist <b>Amanda</b> in laying down framework for SQL files
--If group pace is faster then project timeline begin research into establishing "github pages" to create website visual
-    - look to previous modules for guidance/look to TA's for insight
-- assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
-
 ### Visualization
 Danielle 
 - Discuss ideas for possible visuals for the final project
