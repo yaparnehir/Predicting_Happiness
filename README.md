@@ -12,7 +12,7 @@ What makes citizens of a country happy? The World Happiness Report publishes **H
 
 #### Google Slides/ Visual Dashboaard Links
 - Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1BPEkMbP5Jsawr3WNu7WC1gh0nd24HH7HwgoW9q4v_ow/edit?usp=sharing)
-- Dashboard: [World-Happiness-Report 2021](https://world-happiness-2021-report.netlify.app/)
+- Dashboard: [World-Happiness-Report 2021](https://world-happiness-report-2021.netlify.app/)
 
 ## Datasets
 
@@ -204,7 +204,7 @@ An *n_estimator* of 5 returns the best accuracy.
 
 - As can be seen, the best prediction was produced by **Random Forest Model**. Below are the relative importance of the predictors in the Random Forest Model:
 
-![relative-importance](https://github.com/yaparnehir/Final_Project/blob/main/Images/Feature_importance.png)
+![relative-importance](https://github.com/yaparnehir/Final_Project/blob/fdf372e9fb1d14e03c38c70f2d6baf6b3cc2a809/Images/Features_importance%20.png)
 
 - **Support Vector Machine (SVM)**
 
