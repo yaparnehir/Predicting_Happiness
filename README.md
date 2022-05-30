@@ -68,6 +68,8 @@ SciKitLearn - supervised machine learning models
 Below preprocessing operations were done on the original data before storing them into a database:
 - Uneccesary columns were dropped;
 - A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across all sources, e.g. Swaziland vs Eswatini);
+- Summary statistics was produced to understand the nature of the data;
+- An "IS_HAPPY" column was created by mapping to '0' if hapiness score < 5.5 and '1' if score >= 5.5;
 - Potentially important external feature were merged (e.g. Unemployment rate);
     
 ### Storing
@@ -89,22 +91,22 @@ In the next step, the tables were loaded into pgAdmin and below merge/join were 
     
 ## Machine Learning
 
-The main objective of the machine learning analysis is to **predict if a country is happy or not** (Happiness score > 5.5 vs < 5.5) based on selected features and choice of models.
+The main objective of the machine learning analysis is to **predict if a country is happy or not** (Happiness score >= 5.5 vs < 5.5) based on selected features and choice of models.
 
 ### Preliminary set of features
     
 Some of the features come with the dataset. These are indicators which the publishers believe to be the determinants of happiness, namely:
-    - GDP per capita (log);
-    - Social suppport;
-    - Healthy life expectancy;
-    - Freedom to make life choices;
-    - Generosity;
-    - Perception of corruption.
+- GDP per capita (log);
+- Social suppport;
+- Healthy life expectancy;
+- Freedom to make life choices;
+- Generosity;
+- Perception of corruption.
 
 There are other factors which may influence happiness and these were explored. Some examples are:
-    - Income inequality (Gini index);
-    - Unemployment rate;
-    - Index of institutional trust.
+- Income inequality (Gini index);
+- Unemployment rate;
+- Index of institutional trust.
 
 
 ### Exploratory Data Analysis (EDA)
@@ -117,7 +119,6 @@ To prepare the data for further analysis, it was transformed as below:
 - Data types were checked;
 - Number of null values by coulmns were checked. Since there were only a few records with missing values, those were removed instead of being imputed;
 - Summary statistics was produced to understand the nature of the data;
-- An "IS_HAPPY" column was created by mapping to '0' if hapiness score < 5.5 and '1' if score >5.5;
 
 #### Feature selection
 
@@ -127,6 +128,20 @@ To prepare the data for further analysis, it was transformed as below:
 
 - Unsurprisingly, **most features are correlated with other features** (e.g. GDP per capita with Social support or Life expectancy). Since our objective is prediction and not analyzing relative importance of features, we can ignore the multicolinearity.
 - **All available features show strong to moderate correlation with the target variable** except Generosity and Institutional Trust. However, correlation does not imply causation and even weak correlation can be statisticially significant.
+- Below charts show the relationship between **Happiness** and **Social support, Logged GDP per capita and Healthy life expectancy**.
+
+**Happiness vs Social support**
+
+![happiness_vs_s.support](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_s.support.png)
+
+**Happiness vs Logged GDP per capita**
+
+![happiness_vs_GDP](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_GDP.png)
+
+**Happiness vs Healthy life expectancy**
+
+![happiness_vs_life_expectancy](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_life_expectancy.png)
+
 - **All features were retained** for the analysis with the intention of excluding the least important ones later on if the models suffer from overfitting.
 
 ### Train-test split
@@ -177,30 +192,29 @@ SVMs separates the target varible levels by calculating a hyperplane.
 
 ### Results
 
-- Logistic Regression
+- **Logistic Regression**
 
 ![Accuracy_Logistic](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_Logistic.png)
 
-- Random Forest
+- **Random Forest**
 
 ![Accuracy_RF](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_RF.png)
 
 An *n_estimator* of 5 returns the best accuracy.
 
-- Support Vector Machine (SVM)
+- As can be seen, the best prediction was produced by **Random Forest Model**. Below are the relative importance of the predictors in the Random Forest Model:
+
+![relative-importance](https://github.com/yaparnehir/Final_Project/blob/main/Images/Feature_importance.png)
+
+- **Support Vector Machine (SVM)**
 
 ![Accuracy_SVM](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_SVM.png)
 
 Kernel *Poly* performs better than *Linear*.
 
-- As can be seen, the best prediction was produced by **Random Forest Model**. Below are the relative importance of the predictors in the Random Forest Model:
-
-![relative-importance]()
-
-
 #### Key findings
 
-- Most important factors in making citizens of a country happy are **long healthy life, adequate social support, high income, and freedom to make life choices**.
+- Most important factors in making citizens of a country happy are **adequate social support and high income**.
 - However, **none of these factors alone is sufficient** in making people happy. There are unhappy countries with high income but lack of freedom and vice versa. What's important is that all of these factors are at a satisfactory level.
 
 ### Recommendation
@@ -209,7 +223,7 @@ The fact that the presence of relatively less influential features such as Gini 
 
 ### Dashboard
 
-Tableau and JavaScript were used to create an interactive dashboard to present the findings of the analysis. The dashboard can be found [here](). 
+Tableau and JavaScript were used to create an interactive dashboard to present the findings of the analysis.
 
 
 ## Acknowledgement
