@@ -29,8 +29,8 @@ data.sort(function(a, b) {
     autosize: false,
     paper_bgcolor: '#dcecf7',
     plot_bgcolor: '#ebeff2',
-    width: 900,
-    height: 1000
+    width: 700,
+    height: 900
   };
   
   // Render the plot to the div tag with id "plot"
