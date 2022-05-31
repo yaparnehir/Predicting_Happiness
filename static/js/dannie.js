@@ -25,7 +25,12 @@ data.sort(function(a, b) {
   // Apply the group bar mode to the layout
   var layout = {
     title: "Life Expectancy by Happiness",
-    color: 'rbg(128, 0, 128)'
+    color: 'rbg(128, 0, 128)',
+    autosize: false,
+    paper_bgcolor: '#dcecf7',
+    plot_bgcolor: '#ebeff2',
+    width: 900,
+    height: 1000
   };
   
   // Render the plot to the div tag with id "plot"
