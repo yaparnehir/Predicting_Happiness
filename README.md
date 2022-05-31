@@ -2,65 +2,40 @@
 
 ## Overview
 
-What makes citizens of a country happy? The World Happiness Report publishes **Happiness Score** annually which measures average level of happiness by countries. What factors may influence this score? Is income and economic progress enough to make countries happy? Or do social factors play an important role as well?
+What makes citizens of a country happy? The World Happiness Report publishes **Hapiness Score** annually which measures average level of happiness by countries. What factors may influence this score? Is income and economic progress enough to make countries happy? Or do social factors play an important role as well?
 
 ### Key questions
 
-- What factors determine **Happiness** of a country measured as an average over its population?
+- What factors determine **Happines** of a country measured as an average over its population?
 - What is the relative importance of economic factors vis-a-vis social factors in this regard?
 - Does inequality affect happiness?
 
 #### Google Slides/ Visual Dashboaard Links
-- Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1-ca_PUA9_yF3YS97lGx-sEBI-_E_apEggxzTPLh5tYU/edit?usp=sharing)
-- Dashboard: [World-Happiness-Report 2021](https://world-happiness-2021-report.netlify.app/)
+- Slides: presentation of the analysis can be found [here](https://docs.google.com/presentation/d/1BPEkMbP5Jsawr3WNu7WC1gh0nd24HH7HwgoW9q4v_ow/edit?usp=sharing)
+- Dashboard: [World-Happiness-Report 2021](https://world-happiness-report-2021.netlify.app/)
 
 ## Datasets
 
 - [World Happiness Report_2021](https://worldhappiness.report/ed/2021/#appendices-and-data)
 
+The World Happiness Report is a publication of the Sustainable Development Solutions Network (SDSN). The dataset has a collection of indicators on 149 countries around the world including happiness score on a scale of 0 to 10, its standard error and more.
 
-## Roles
-### Square
-Nehir
-- Responsible for the repository
-- Make sure everyone has a branch on their own
-- Watching all the process was made in branches, keep the updates.
-- Testing, discussing before merging into a main branch.
+- [Mortality Data](https://worldhappiness.report/ed/2021/#appendices-and-data)
 
-### Triangle
-Nusrat
-- Contribute to data cleaning and processing;
-    - Data preparation is likely to be iterative with model evaluation
-- Select model(s) for the data in consultation with the group;
-- Train, evaluate and improve model(s)
-    - Run model, evaluate performance, re-asses feature selection and/or model specification if needed;
-- Interprete findings.
-    
-### Circle
-Amanda
-![Diagram](/Dataset%20diagram.PNG)
-    
-### X Role
-Kartikye
-- discuss how data will be cleaned then merged, may need to create additonal tables in database to export
-- assist <b>Amanda</b> in laying down framework for SQL files
--If group pace is faster then project timeline begin research into establishing "github pages" to create website visual
-    - look to previous modules for guidance/look to TA's for insight
-- assist <b>Nusrat</b> with machine learning model or creating correlation chart/matrix
+This is a supplementary dataset in The World Happiness Report which, among other indicators, includes the Index of institutional trust and Gini coefficient of income. These two indicators were included in the analysis.
 
-### Visualization
-Danielle 
-- Discuss ideas for possible visuals for the final project
-- Look over data to see what visual applications may fit
-   - Tableau and other applications are being considered.
-- Also researching ideas for including interactivity and refering back to past modules.
-- [Tableau Viz](https://public.tableau.com/views/Top20Bottom20Happy/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
-  -Tableau visual to be used in dashboard.
-## Methods 
-> Unsupervised ML 
-## Technology
+- [Unemployment rate 2021](https://data.worldbank.org/indicator/sl.uem.totl.zs)
+
+This dataset from the World Bank contains unemployment rate for 266 countries and areas for 2021. 
+
+- [Country coordinates](https://www.kaggle.com/datasets/vinitasilaparasetty/country-coordinates-world)
+
+A kaggle dataset containing coordinates of countries which was used for map visualization of the data.
 
 
+## Resources
+
+### Data Cleaning and Analysis
 
 - Python
 - Jupyter Notebook
@@ -89,11 +64,10 @@ SciKitLearn - supervised machine learning models
 ## Database
 
 ### Preprocessing
-
+    
 Below preprocessing operations were done on the original data before storing them into a database:
 - Uneccesary columns were dropped;
-- A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across
-all sources, e.g. Swaziland vs Eswatini);
+- A dictionary for some country names was defined and applied to accurately merge data from different sources (since Country names may not be standardized across all sources, e.g. Swaziland vs Eswatini);
 - Summary statistics was produced to understand the nature of the data;
 - An "IS_HAPPY" column was created by mapping to '0' if hapiness score < 5.5 and '1' if score >= 5.5;
 - Potentially important external feature were merged (e.g. Unemployment rate);
@@ -122,17 +96,17 @@ The main objective of the machine learning analysis is to **predict if a country
 ### Preliminary set of features
     
 Some of the features come with the dataset. These are indicators which the publishers believe to be the determinants of happiness, namely:
-    - GDP per capita (log);
-    - Social suppport;
-    - Healthy life expectancy;
-    - Freedom to make life choices;
-    - Generosity;
-    - Perception of corruption.
+- GDP per capita (log);
+- Social suppport;
+- Healthy life expectancy;
+- Freedom to make life choices;
+- Generosity;
+- Perception of corruption.
 
 There are other factors which may influence happiness and these were explored. Some examples are:
-    - Income inequality (Gini index);
-    - Unemployment rate;
-    - Index of institutional trust.
+- Income inequality (Gini index);
+- Unemployment rate;
+- Index of institutional trust.
 
 
 ### Exploratory Data Analysis (EDA)
@@ -146,7 +120,6 @@ To prepare the data for further analysis, it was transformed as below:
 - Number of null values by coulmns were checked. Since there were only a few records with missing values, those were removed instead of being imputed;
 - Summary statistics was produced to understand the nature of the data;
 
-
 #### Feature selection
 
 - A **correlation matrix** was calculated and visualized for all previously selected features. This was done to examine their relationship with the target variable as well as other features (**multicolinearity**).
@@ -154,20 +127,20 @@ To prepare the data for further analysis, it was transformed as below:
 ![Corr_matrix](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Corr_matrix.png)
 
 - Unsurprisingly, **most features are correlated with other features** (e.g. GDP per capita with Social support or Life expectancy). Since our objective is prediction and not analyzing relative importance of features, we can ignore the multicolinearity.
-- **All available features show strong to moderate correlation with the target variable** except Generosity and Institutional Trust. However, correlation does not imply causation and even weak correlation can be statisticially significant. The relation between happiness and three most correlated variables social support, logged GDP per Capita and healthy life expectancy are showing below respectively.
+- **All available features show strong to moderate correlation with the target variable** except Generosity and Institutional Trust. However, correlation does not imply causation and even weak correlation can be statisticially significant.
+- Below charts show the relationship between **Happiness** and **Social support, Logged GDP per capita and Healthy life expectancy**.
 
-**Happiness with Social support**
+**Happiness vs Social support**
 
-![happiness_vs_s.support](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/happiness_vs_s.support.png)
+![happiness_vs_s.support](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_s.support.png)
 
-**Happiness with Logged GDP per capita**
+**Happiness vs Logged GDP per capita**
 
-![happiness_vs_GDP](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/happiness_vs_GDP.png)
+![happiness_vs_GDP](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_GDP.png)
 
-**Happiness with Healthy life expectancy**
+**Happiness vs Healthy life expectancy**
 
-![happiness_vs_life_expectancy](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/happiness_vs_life_expectancy.png)
-
+![happiness_vs_life_expectancy](https://github.com/yaparnehir/Final_Project/blob/main/Images/happiness_vs_life_expectancy.png)
 
 - **All features were retained** for the analysis with the intention of excluding the least important ones later on if the models suffer from overfitting.
 
@@ -227,11 +200,11 @@ SVMs separates the target varible levels by calculating a hyperplane.
 
 ![Accuracy_RF](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Accuracy_RF.png)
 
-- An *n_estimator* of 5 returns the best accuracy.
+An *n_estimator* of 5 returns the best accuracy.
 
 - As can be seen, the best prediction was produced by **Random Forest Model**. Below are the relative importance of the predictors in the Random Forest Model:
 
-![relative-importance](https://github.com/yaparnehir/Final_Project/blob/Nusrat_ML/Images/Feature_importance.png)
+![relative-importance](https://github.com/yaparnehir/Final_Project/blob/fdf372e9fb1d14e03c38c70f2d6baf6b3cc2a809/Images/Features_importance%20.png)
 
 - **Support Vector Machine (SVM)**
 
@@ -250,7 +223,7 @@ The fact that the presence of relatively less influential features such as Gini 
 
 ### Dashboard
 
-Tableau and JavaScript were used to create an interactive dashboard to present the findings of the analysis. The dashboard can be found [here](). 
+Tableau and JavaScript were used to create an interactive dashboard to present the findings of the analysis.
 
 
 ## Acknowledgement
