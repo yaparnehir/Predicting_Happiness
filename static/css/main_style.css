@@ -1,3 +1,12 @@
+html{
+    height: 100vh !important;
+    width: 100% !important;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
 div.summary-shape {
     text-shadow : none !important;
     display: inline-block;
@@ -12,6 +21,7 @@ div.summary-shape {
 div.summary-title {
     text-shadow : none !important;
     font-family: OCR A Std, monospace;
+    font-size: 18px !important;
     text-align: center;
     color: #0f0c0c
 }
@@ -42,8 +52,15 @@ div.jumbotron>h1 {
     text-align: left;
 }
 
-div.summary-text>h5>b{
-    font-size: 16px;
+div.summary-text>p{
+    font-size: 15px !important;
+}
+
+h5>b{
+    font-family: OCR A Std, monospace;
+    font-weight: 500;
+    font-size: 20px !important;
+    font-weight: 900;
 }
 
 
@@ -51,11 +68,11 @@ h6 {
     font-family: OCR A Std, monospace;
     font-weight: 500;
     font-size: 16px;
-
 }
 
 .container {
     width: 90%;
+    max-height:120%;
     margin: 0 auto;
 
 }
@@ -68,9 +85,9 @@ body {
 
 #particles-js {
     width: 100%;
-    height: 100vh;
+    height: 300vh;
     background-image: linear-gradient(to left bottom, #6f636a, #6a5365, #614462, #553561, #442961, #482565, #4d2169, #531b6d, #75176f, #94126e, #b01168, #c91c60);
-    background-size: 100%;
+    background-size: contain;
     background-position: center;
     position: fixed !important;
 
@@ -112,6 +129,7 @@ div.tableauPlaceholder-info  {
 
 .logo{
     float: left;
+    position: relative;
 }
 
 
